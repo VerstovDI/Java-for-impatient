@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3e466e09-7cd2-48a5-b586-54072cb381eb" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1c4qbtZpjbwNHX0WKqIr9vLuJuZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="server.Main" />
+      <module name="LooselyConnArch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3e466e09-7cd2-48a5-b586-54072cb381eb" name="Default Changelist" comment="" />
+      <created>1589798287663</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589798287663</updated>
+      <workItem from="1589798297408" duration="1526000" />
+      <workItem from="1590413083271" duration="12658000" />
+      <workItem from="1590474061353" duration="3173000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Project_Structure" timestamp="1590422793843">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1590422793843" />
+    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1590423639825">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1590423639825" />
+    <state width="1877" height="175" key="GridCell.Tab.0.bottom" timestamp="1590477284673">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="175" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590477284673" />
+    <state width="1877" height="175" key="GridCell.Tab.0.center" timestamp="1590477284672">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="175" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590477284672" />
+    <state width="1877" height="175" key="GridCell.Tab.0.left" timestamp="1590477284672">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="175" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590477284672" />
+    <state width="1877" height="175" key="GridCell.Tab.0.right" timestamp="1590477284673">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="175" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590477284673" />
+    <state width="1877" height="175" key="GridCell.Tab.1.bottom" timestamp="1590477284673">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="175" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590477284673" />
+    <state width="1877" height="175" key="GridCell.Tab.1.center" timestamp="1590477284673">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="175" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590477284673" />
+    <state width="1877" height="175" key="GridCell.Tab.1.left" timestamp="1590477284673">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="175" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590477284673" />
+    <state width="1877" height="175" key="GridCell.Tab.1.right" timestamp="1590477284673">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="175" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590477284673" />
+    <state x="785" y="120" key="SettingsEditor" timestamp="1590423920494">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="785" y="120" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1590423920494" />
+    <state x="640" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1590474067698">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590474067698" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/server/Server.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
