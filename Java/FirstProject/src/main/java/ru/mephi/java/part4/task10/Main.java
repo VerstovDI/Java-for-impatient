@@ -1,7 +1,5 @@
 package ru.mephi.java.part4.task10;
 
-import ru.mephi.java.part4.task09.Class2;
-
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
 import java.util.Arrays;
