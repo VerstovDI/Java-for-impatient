@@ -22,76 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="147829bf-43cf-4675-bd5e-c8a6fdda5691" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="147829bf-43cf-4675-bd5e-c8a6fdda5691" name="Default Changelist" comment="First 3 tasks from part 5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/MyIterators/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/MyIterators/MyIterator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/MyIterators/MyIterator2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/Theory1/InsertionSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/Theory1/IntSorter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/Theory1/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/Theory1/SelectionSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/Theory1/ShellSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/Theory2/p1/DeviationCalculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/Theory2/p1/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/Theory2/p1/Metric.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/Theory2/p2/INumericSeparator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/Theory2/p2/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/Theory2/p2/NumTransfer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/Theory3/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/Theory3/Converter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/Theory3/IChangeSpecies.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/Theory3/IPersonMaker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/Theory3/IPrintInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/Theory3/IStringHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/Theory3/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/Theory3/SomeStringClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/Theory3/StringChecker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/Theory3/StringConsumer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/Theory3/Tester.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task01/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task01/IMeasurable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task01/Task01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task02/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task02/IMeasurable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task02/Task02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task03/Task03.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task04/IntSequence.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task04/IntSequenceExtra.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task04/Task04.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task05/IntSequence.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task05/IntSequenceExtra.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task05/Task05.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task06/DigitSequence.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task06/Task06.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task07/Task07.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task08/Greeter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task08/Task08.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task09/RunnableTaskClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task09/Task09.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task10/Task10.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task11/Task11.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task12/Task12.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task13/Task13.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task14/Task14.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task15/IntSequence.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task15/Task15.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task16Extra/MyStringComparator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task16Extra/MyStringComparators.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task16Extra/Task16.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/FirstProject.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/Theory1/IntSortable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/Theory2/p1/Deviationable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/Theory3/Movable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task09/ThreadHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task13/Task13$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task16Extra/Task16$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task09/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task09/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task10/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task10/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task12/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task12/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,6 +147,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main (1)" />
@@ -239,8 +184,16 @@
       <workItem from="1599234996012" duration="11093000" />
       <workItem from="1599317451714" duration="43000" />
       <workItem from="1599331116837" duration="2948000" />
-      <workItem from="1599378037493" duration="1233000" />
+      <workItem from="1599378037493" duration="1296000" />
     </task>
+    <task id="LOCAL-00001" summary="First 3 tasks from part 5">
+      <created>1599380987318</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599380987318</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,6 +210,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First 3 tasks from part 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="First 3 tasks from part 5" />
   </component>
   <component name="WindowStateProjectService">
     <state x="121" y="0" key="#Project_Structure" timestamp="1599243508700">
@@ -315,6 +272,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1599333203104" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1599380994180">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1599380994180" />
     <state x="655" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1590817581497">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
