@@ -3,18 +3,19 @@ package ru.mephi.java.part5.task04;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
+import java.util.Locale;
 import java.util.Scanner;
 
 
 public class Task04 {
-    private ArrayList<Double> currentArray;
+    private ArrayList<Double> currentArray = new ArrayList<>();
     private double currentSum;
 
     private int readValues(String filename) {
         if (filename == null || filename.isEmpty()) {
             return ErrorCodes.INVALID_FILE_NAME.getCode();
         }
-        /*Scanner in;
+        Scanner in;
         try {
             in = new Scanner(new File(filename));
             while (in.hasNextDouble()) {
@@ -22,7 +23,7 @@ public class Task04 {
             }
         } catch (FileNotFoundException e) {
             return ErrorCodes.FILE_NOT_FOUND.getCode();
-        }*/
+        }
         return ErrorCodes.OK.getCode();
     }
 
@@ -35,8 +36,12 @@ public class Task04 {
         }
     }
 
-    public void printResultOfSum(String filename) {
-        sumOfValues(filename);
-        System.out.println(this.currentSum);
+    public int printResultOfSum(String filename) {
+        if (sumOfValues(filename) == ErrorCodes.OK.getCode()) {
+            System.out.println(this.currentSum);
+            return ErrorCodes.OK.getCode();
+        } else {
+            return ErrorCodes.NOT_OK.getCode();
+        }
     }
 }

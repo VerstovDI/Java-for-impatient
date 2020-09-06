@@ -80,9 +80,9 @@ public class Task01 {
 
     public ArrayList<Double> readValues3(String filename) throws FileNotFoundException {
         if (filename == null || filename.isEmpty()) {
-            throw new IllegalArgumentException("invalid filename");
+            throw new IllegalArgumentException("Invalid name of file");
         }
-        ArrayList<Double> resultArray = new ArrayList<Double>();
+        ArrayList<Double> resultArray = new ArrayList<>();
         Scanner in = new Scanner(new File(filename));
         while (in.hasNextDouble()) {
             resultArray.add(in.nextDouble());

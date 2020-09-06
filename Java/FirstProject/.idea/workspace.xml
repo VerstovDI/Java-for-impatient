@@ -22,8 +22,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="147829bf-43cf-4675-bd5e-c8a6fdda5691" name="Default Changelist" comment="First 3 tasks from part 5">
+    <list default="true" id="147829bf-43cf-4675-bd5e-c8a6fdda5691" name="Default Changelist" comment="First 3 tasks from part 5 updated">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part5/task05/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part5/task05/Task05.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part5/task01/Task01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part5/task01/Task01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part5/task04/Task04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part5/task04/Task04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/task01.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/task01.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part5/task01/Task01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part5/task01/Task01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part5/task04/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part5/task04/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part5/task04/Task04.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part5/task04/Task04.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/task01.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/task01.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,10 +72,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../(7-8) Trainee/Trainee/SeaBattleApp" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
   </component>
   <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -184,7 +193,7 @@
       <workItem from="1599234996012" duration="11093000" />
       <workItem from="1599317451714" duration="43000" />
       <workItem from="1599331116837" duration="2948000" />
-      <workItem from="1599378037493" duration="1296000" />
+      <workItem from="1599378037493" duration="6629000" />
     </task>
     <task id="LOCAL-00001" summary="First 3 tasks from part 5">
       <created>1599380987318</created>
@@ -193,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599380987318</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First 3 tasks from part 5 updated">
+      <created>1599381092691</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599381092691</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,7 +229,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First 3 tasks from part 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="First 3 tasks from part 5" />
+    <MESSAGE value="First 3 tasks from part 5 updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="First 3 tasks from part 5 updated" />
   </component>
   <component name="WindowStateProjectService">
     <state x="121" y="0" key="#Project_Structure" timestamp="1599243508700">
@@ -228,25 +245,25 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1599317492044" />
-    <state width="1237" height="209" key="GridCell.Tab.0.bottom" timestamp="1599336673673">
+    <state width="1237" height="260" key="GridCell.Tab.0.bottom" timestamp="1599383315979">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="209" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1599336673673" />
+    <state width="1237" height="260" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1599383315979" />
     <state width="1865" height="259" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590831041117" />
-    <state width="1237" height="209" key="GridCell.Tab.0.center" timestamp="1599336673672">
+    <state width="1237" height="260" key="GridCell.Tab.0.center" timestamp="1599383315979">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="209" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1599336673672" />
+    <state width="1237" height="260" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1599383315979" />
     <state width="1865" height="259" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590831041117" />
-    <state width="1237" height="209" key="GridCell.Tab.0.left" timestamp="1599336673672">
+    <state width="1237" height="260" key="GridCell.Tab.0.left" timestamp="1599383315979">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="209" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1599336673672" />
+    <state width="1237" height="260" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1599383315979" />
     <state width="1865" height="259" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590831041117" />
-    <state width="1237" height="209" key="GridCell.Tab.0.right" timestamp="1599336673672">
+    <state width="1237" height="260" key="GridCell.Tab.0.right" timestamp="1599383315979">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="209" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1599336673672" />
+    <state width="1237" height="260" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1599383315979" />
     <state width="1865" height="259" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590831041117" />
     <state width="1865" height="344" key="GridCell.Tab.1.bottom" timestamp="1590781615866">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -268,21 +285,30 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="171" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.680@0.0.1280.680" timestamp="1599246252760" />
-    <state x="121" y="0" key="SettingsEditor" timestamp="1599333203104">
+    <state x="121" y="0" key="SettingsEditor" timestamp="1599382763432">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1599333203104" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1599380994180">
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1599382763432" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1599381100056">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1599380994180" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1599381100056" />
     <state x="655" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1590817581497">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="655" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590817581497" />
-    <state x="623" y="225" width="840" height="678" key="search.everywhere.popup" timestamp="1590825544695">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="347" y="73" width="587" height="534" key="find.popup" timestamp="1599382425514">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state x="347" y="73" width="587" height="534" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1599382425514" />
+    <state x="436" y="88" key="refactoring.ChangeSignatureDialog" timestamp="1599382314023">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="436" y="88" key="refactoring.ChangeSignatureDialog/0.0.1280.680@0.0.1280.680" timestamp="1599382314023" />
+    <state x="415" y="147" width="672" height="444" key="search.everywhere.popup" timestamp="1599382495528">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="415" y="147" width="672" height="444" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1599382495528" />
     <state x="623" y="225" width="840" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590825544695" />
   </component>
   <component name="XDebuggerManager">
@@ -314,9 +340,9 @@
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/mephi/java/part5/task04/Main.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="37" />
+          <url>file://$PROJECT_DIR$/src/main/java/ru/mephi/java/part5/task04/Task04.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
