@@ -1,127 +1,148 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="147829bf-43cf-4675-bd5e-c8a6fdda5691" name="Default Changelist" comment="" />
+    <list default="true" id="147829bf-43cf-4675-bd5e-c8a6fdda5691" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/MyIterators/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/MyIterators/MyIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/MyIterators/MyIterator2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/Theory1/InsertionSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/Theory1/IntSorter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/Theory1/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/Theory1/SelectionSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/Theory1/ShellSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/Theory2/p1/DeviationCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/Theory2/p1/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/Theory2/p1/Metric.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/Theory2/p2/INumericSeparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/Theory2/p2/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/Theory2/p2/NumTransfer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/Theory3/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/Theory3/Converter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/Theory3/IChangeSpecies.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/Theory3/IPersonMaker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/Theory3/IPrintInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/Theory3/IStringHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/Theory3/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/Theory3/SomeStringClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/Theory3/StringChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/Theory3/StringConsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/Theory3/Tester.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task01/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task01/IMeasurable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task01/Task01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task02/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task02/IMeasurable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task02/Task02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task03/Task03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task04/IntSequence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task04/IntSequenceExtra.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task04/Task04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task05/IntSequence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task05/IntSequenceExtra.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task05/Task05.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task06/DigitSequence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task06/Task06.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task07/Task07.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task08/Greeter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task08/Task08.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task09/RunnableTaskClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task09/Task09.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task10/Task10.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task11/Task11.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task12/Task12.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task13/Task13.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task14/Task14.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task15/IntSequence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task15/Task15.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task16Extra/MyStringComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task16Extra/MyStringComparators.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3 (1)/task16Extra/Task16.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/FirstProject.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/Theory1/IntSortable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/Theory2/p1/Deviationable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/Theory3/Movable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task09/ThreadHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task13/Task13$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task16Extra/Task16$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task09/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task09/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task10/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task10/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task12/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task12/Main.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="Unnamed1">
-      <favorite_root url="file://$PROJECT_DIR$/src/main/java/ru/mephi/java/part3/task06" module="FirstProject" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
-        <favorite_root url="file://$PROJECT_DIR$/src/main/java/ru/mephi/java/part3/task06/Task06.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-      </favorite_root>
-    </favorites_list>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:\IntelliJ IDEA 2020.1.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1XW542kY1sZQhnf7DxgbiH9UEZX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/JavaWorkspace/Cal.java" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../(7-8) Trainee/Trainee/SeaBattleApp" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
-  <component name="RunManager" selected="Application.Main (5)">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part4.task06.Main" />
+      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part5.task04.Main" />
       <module name="FirstProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.mephi.java.part4.task06.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part4.task11.Main" />
-      <module name="FirstProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.mephi.java.part4.task11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part4.task09.Main" />
-      <module name="FirstProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.mephi.java.part4.task09.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part4.task13.Main" />
-      <module name="FirstProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.mephi.java.part4.task13.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part4.task12.Main" />
-      <module name="FirstProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.mephi.java.part4.task12.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part3.MyIterators.Main" />
-      <module name="FirstProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.mephi.java.part3.MyIterators.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part3.MyIterators.Main" />
-      <module name="FirstProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.mephi.java.part3.MyIterators.*" />
+          <option name="PATTERN" value="ru.mephi.java.part5.task04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,16 +163,69 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part5.task01.Task01" />
+      <module name="FirstProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.mephi.java.part5.task01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part5.task02.Task02" />
+      <module name="FirstProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.mephi.java.part5.task02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part5.task03.Task03" />
+      <module name="FirstProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.mephi.java.part5.task03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part5.task04.Task04" />
+      <module name="FirstProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.mephi.java.part5.task04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Task04" />
+        <item itemvalue="Application.Task03" />
+        <item itemvalue="Application.Task02" />
+        <item itemvalue="Application.Task01" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -162,69 +236,60 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581148814700</updated>
+      <workItem from="1599234996012" duration="11093000" />
+      <workItem from="1599317451714" duration="43000" />
+      <workItem from="1599331116837" duration="2948000" />
+      <workItem from="1599378037493" duration="1233000" />
     </task>
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="639" y="100" key="#Exercise4" timestamp="1584126607939">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="121" y="0" key="#Project_Structure" timestamp="1599243508700">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="639" y="100" key="#Exercise4/0.0.1920.1040@0.0.1920.1040" timestamp="1584126607939" />
-    <state x="639" y="100" key="#Exercise4_(1)" timestamp="1584126615897">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="121" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1599243508700" />
+    <state x="661" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1599246848203">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="639" y="100" key="#Exercise4_(1)/0.0.1920.1040@0.0.1920.1040" timestamp="1584126615897" />
-    <state x="639" y="100" key="#Exercise4_(2)" timestamp="1584126640279">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="661" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1599246848203" />
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1599317492045">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="639" y="100" key="#Exercise4_(2)/0.0.1920.1040@0.0.1920.1040" timestamp="1584126640279" />
-    <state x="452" y="95" key="#Project_Structure" timestamp="1589618329887">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1599317492044" />
+    <state width="1237" height="209" key="GridCell.Tab.0.bottom" timestamp="1599336673673">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="452" y="95" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1589618329887" />
-    <state x="991" y="205" key="#com.intellij.ide.util.MemberChooser" timestamp="1590604325727">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="991" y="205" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1590604325727" />
-    <state x="544" y="431" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1586515274875">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="544" y="431" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586515274875" />
-    <state x="726" y="352" width="467" height="347" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1588174079626">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="726" y="352" width="467" height="347" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1588174079626" />
-    <state x="768" y="367" width="405" height="306" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1588154578392">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="768" y="367" width="405" height="306" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1040@0.0.1920.1040" timestamp="1588154578392" />
-    <state x="411" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1589638465677">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="411" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589638465677" />
-    <state x="627" y="207" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588533486063">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="627" y="207" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588533486063" />
-    <state x="690" y="217" key="FileChooserDialogImpl" timestamp="1584786362118">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="690" y="217" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584786362118" />
-    <state width="1865" height="259" key="GridCell.Tab.0.bottom" timestamp="1590831041117">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
+    <state width="1237" height="209" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1599336673673" />
     <state width="1865" height="259" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590831041117" />
-    <state width="1865" height="259" key="GridCell.Tab.0.center" timestamp="1590831041117">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1237" height="209" key="GridCell.Tab.0.center" timestamp="1599336673672">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="1237" height="209" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1599336673672" />
     <state width="1865" height="259" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590831041117" />
-    <state width="1865" height="259" key="GridCell.Tab.0.left" timestamp="1590831041117">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1237" height="209" key="GridCell.Tab.0.left" timestamp="1599336673672">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="1237" height="209" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1599336673672" />
     <state width="1865" height="259" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590831041117" />
-    <state width="1865" height="259" key="GridCell.Tab.0.right" timestamp="1590831041117">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1237" height="209" key="GridCell.Tab.0.right" timestamp="1599336673672">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="1237" height="209" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1599336673672" />
     <state width="1865" height="259" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590831041117" />
     <state width="1865" height="344" key="GridCell.Tab.1.bottom" timestamp="1590781615866">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -242,30 +307,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1865" height="344" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590781615866" />
-    <state x="0" y="96" key="Maven.ArtifactSearchDialog" timestamp="1587755048153">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1599246252760">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="0" y="96" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587755048153" />
-    <state x="323" y="0" key="SettingsEditor" timestamp="1589643101196">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="171" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.680@0.0.1280.680" timestamp="1599246252760" />
+    <state x="121" y="0" key="SettingsEditor" timestamp="1599333203104">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="323" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589643101196" />
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1599333203104" />
     <state x="655" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1590817581497">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="655" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590817581497" />
-    <state x="442" y="194" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1585166644750">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="442" y="194" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1585166644750" />
-    <state x="162" y="82" key="refactoring.ChangeSignatureDialog" timestamp="1589616668098">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="162" y="82" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589616668098" />
-    <state x="532" y="237" key="run.anything.popup" timestamp="1589627399345">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="532" y="237" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589627399345" />
     <state x="623" y="225" width="840" height="678" key="search.everywhere.popup" timestamp="1590825544695">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -294,12 +347,17 @@
           <line>37</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_261/src.zip!/java/io/FileInputStream.java</url>
+          <line>126</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/mephi/java/part5/task04/Main.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="myIterator3.pipeLineIterators" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
