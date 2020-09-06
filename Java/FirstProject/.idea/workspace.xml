@@ -22,11 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="147829bf-43cf-4675-bd5e-c8a6fdda5691" name="Default Changelist" comment="Added tasks 4 and 5">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/task05_output.txt" afterDir="false" />
+    <list default="true" id="147829bf-43cf-4675-bd5e-c8a6fdda5691" name="Default Changelist" comment="Fix task05 from part 5">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part5/task06/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part5/task06/Task06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/task06.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part5/task05/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part5/task05/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part5/task05/Task05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part5/task05/Task05.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +71,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part5.task04.Main" />
       <module name="FirstProject" />
@@ -98,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part5.task02.Task02" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part5.task06.Main" />
       <module name="FirstProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.mephi.java.part5.task02.*" />
+          <option name="PATTERN" value="ru.mephi.java.part5.task06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Task04" />
         <item itemvalue="Application.Task03" />
-        <item itemvalue="Application.Task02" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +174,7 @@
       <workItem from="1599234996012" duration="11093000" />
       <workItem from="1599317451714" duration="43000" />
       <workItem from="1599331116837" duration="2948000" />
-      <workItem from="1599378037493" duration="7202000" />
+      <workItem from="1599378037493" duration="9775000" />
     </task>
     <task id="LOCAL-00001" summary="First 3 tasks from part 5">
       <created>1599380987318</created>
@@ -197,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599388955121</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fix task05 from part 5">
+      <created>1599389536203</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599389536203</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,7 +226,8 @@
     <MESSAGE value="First 3 tasks from part 5" />
     <MESSAGE value="First 3 tasks from part 5 updated" />
     <MESSAGE value="Added tasks 4 and 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added tasks 4 and 5" />
+    <MESSAGE value="Fix task05 from part 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix task05 from part 5" />
   </component>
   <component name="WindowStateProjectService">
     <state x="121" y="0" key="#Project_Structure" timestamp="1599243508700">
@@ -238,25 +246,25 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1599317492044" />
-    <state width="1237" height="154" key="GridCell.Tab.0.bottom" timestamp="1599389498376">
+    <state width="1237" height="154" key="GridCell.Tab.0.bottom" timestamp="1599393423355">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="154" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1599389498376" />
+    <state width="1237" height="154" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1599393423355" />
     <state width="1865" height="259" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590831041117" />
-    <state width="1237" height="154" key="GridCell.Tab.0.center" timestamp="1599389498374">
+    <state width="1237" height="154" key="GridCell.Tab.0.center" timestamp="1599393423355">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="154" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1599389498374" />
+    <state width="1237" height="154" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1599393423355" />
     <state width="1865" height="259" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590831041117" />
-    <state width="1237" height="154" key="GridCell.Tab.0.left" timestamp="1599389498374">
+    <state width="1237" height="154" key="GridCell.Tab.0.left" timestamp="1599393423355">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="154" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1599389498374" />
+    <state width="1237" height="154" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1599393423355" />
     <state width="1865" height="259" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590831041117" />
-    <state width="1237" height="154" key="GridCell.Tab.0.right" timestamp="1599389498375">
+    <state width="1237" height="154" key="GridCell.Tab.0.right" timestamp="1599393423355">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="154" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1599389498375" />
+    <state width="1237" height="154" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1599393423355" />
     <state width="1865" height="259" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590831041117" />
     <state width="1865" height="344" key="GridCell.Tab.1.bottom" timestamp="1590781615866">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -282,10 +290,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1599382763432" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1599388958296">
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1599389542767">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1599388958296" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1599389542767" />
     <state x="655" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1590817581497">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
