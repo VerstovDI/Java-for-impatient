@@ -18,6 +18,7 @@ public class Task04 {
         Scanner in;
         try {
             in = new Scanner(new File(filename));
+            in.useLocale(Locale.US);
             while (in.hasNextDouble()) {
                 currentArray.add(in.nextDouble());
             }
