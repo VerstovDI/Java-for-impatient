@@ -14,7 +14,7 @@ public class Main {
                 new File(basePath + "to.txt"));
     }
 
-    public static void writeStrings1(File fileFrom, File fileCompareTo, File fileTo) {
+    public static void writeStrings1(File fileFrom, File fileCompareTo, File fileTo) throws IOException {
         ArrayList<String> matchStrings = new ArrayList<>();
         ArrayList<String> allStrings = new ArrayList<>();
 
@@ -29,10 +29,8 @@ public class Main {
                      new OutputStreamWriter((new FileOutputStream((fileTo)))))
         ) {
             doSomething(readerFrom, readerCompare, writer, matchStrings, allStrings);
-        } catch (FileNotFoundException fileNotFoundEx) {
-            System.err.println("File wasn't found;" + fileNotFoundEx.getLocalizedMessage());
-        } catch (IOException ioException) {
-            System.err.println("Something went wrong during writing/reading from files");
+            // TODO: комбинировать исклчения через suppresed,
+            //  оба метода одинаково выбрасывали. Разные случаи
         }
     }
 

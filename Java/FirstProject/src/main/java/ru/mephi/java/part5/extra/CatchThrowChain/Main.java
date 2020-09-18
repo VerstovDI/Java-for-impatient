@@ -16,13 +16,13 @@ public class Main {
 
         //tryCatchExample();
 
-        /*try {
+        try {
             setBirthday("22.13.20005");
         } catch (InvalidBirthdayException ex) {
             // throw .... слой за слоем можно пробрасывать дальше
             System.err.println("Кривая дата, уходи");
             ex.printStackTrace();
-        }*/
+        }
 
         try {
             suppressedExample("magickPath");
@@ -58,6 +58,7 @@ public class Main {
             catch (ArrayIndexOutOfBoundsException e) {
                 //System.out.println(e.getMessage());
                 System.err.println("Out of bounds");
+                e.printStackTrace();
             }
             finally {
                 System.out.println("Continue...");
@@ -86,9 +87,9 @@ public class Main {
                 fileIn.close();
             } catch (NullPointerException npe) {
                 if (firstException != null) {
-                    npe.addSuppressed(firstException);
+                    firstException.addSuppressed(npe);
                 }
-                throw npe;
+                firstException.printStackTrace();
             }
         }
     }

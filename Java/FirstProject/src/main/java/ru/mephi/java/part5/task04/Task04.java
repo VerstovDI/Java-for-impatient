@@ -29,20 +29,12 @@ public class Task04 {
     }
 
     private int sumOfValues(String filename) {
-        if (this.readValues(filename) == ErrorCodes.OK.getCode()) {
-            currentSum = currentArray.stream().mapToDouble(d -> d).sum();
-            return ErrorCodes.OK.getCode();
-        } else {
-            return ErrorCodes.NOT_OK.getCode();
-        }
+        currentSum = currentArray.stream().mapToDouble(d -> d).sum();
+        return this.readValues(filename);
     }
 
     public int printResultOfSum(String filename) {
-        if (sumOfValues(filename) == ErrorCodes.OK.getCode()) {
-            System.out.println(this.currentSum);
-            return ErrorCodes.OK.getCode();
-        } else {
-            return ErrorCodes.NOT_OK.getCode();
-        }
+        System.out.println(sumOfValues(filename));
+        return sumOfValues(filename);
     }
 }
