@@ -5,7 +5,8 @@ public enum ErrorCodes {
     FILE_NOT_FOUND(1, "File not found"),
     INCORRECT_NUMBER_FORMAT(2, "Number format is incorrect"),
     INVALID_FILE_NAME(3, "Filename is invalid"),
-    NOT_OK(4, "Calculation went wrong");
+    ERROR(4, "IOError"),
+    NOT_OK(5, "Calculation went wrong");
     // TODO: логики разделения между слоями. зачем вылетает обернутый эксепшн
     // We need to chain the exceptions to make logs readable.
     /*
@@ -32,12 +33,14 @@ public enum ErrorCodes {
     // TODO: зачем нужна конструкция try-finally, если есть try-with-resourсes
     // есть ресурсы, которые определил я сам, и которые я должен закрывать вручную;
     /*
+     */
+    /*
+    При закрытии ресурса возникло исключение и нам его нужно залоггировать
     A classic example of try…catch…finally is database resource management.
     A connection to a database needs to be established but any number of things can go wrong
     in working with it.
     A connection is a managed resource that has to be properly cleaned up regardless of what happens.
      */
-    // см. инет
 
 
     private final int code;

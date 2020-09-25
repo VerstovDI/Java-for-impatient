@@ -5,96 +5,59 @@ import java.io.*;
 import java.util.ArrayList;
 
 public class Main {
-    private static final String basePath = "src" + File.separator
-            + "main" + File.separator + "resources" + File.separator
-            + "extras" + File.separator;
-    public static void main(String[] args) {
-        writeStrings2(new File(basePath + "from.txt"),
-                new File(basePath + "compareTo.txt"),
-                new File(basePath + "to.txt"));
+    public static void main(String[] args) throws Exception {
+        //operateWithResources1();
+        operateWithResources2();
     }
 
-    public static void writeStrings1(File fileFrom, File fileCompareTo, File fileTo) throws IOException {
-        ArrayList<String> matchStrings = new ArrayList<>();
-        ArrayList<String> allStrings = new ArrayList<>();
-
-        try (BufferedReader readerFrom =
-                     new BufferedReader(
-                     new InputStreamReader(new FileInputStream(fileFrom)));
-             BufferedReader readerCompare =
-                     new BufferedReader(
-                     new InputStreamReader(new FileInputStream(fileCompareTo)));
-             BufferedWriter writer =
-                     new BufferedWriter(
-                     new OutputStreamWriter((new FileOutputStream((fileTo)))))
-        ) {
-            doSomething(readerFrom, readerCompare, writer, matchStrings, allStrings);
-            // TODO: комбинировать исклчения через suppresed,
-            //  оба метода одинаково выбрасывали. Разные случаи
+    public static void operateWithResources1()
+            throws Exception {
+        try (MyResource1 myResource1 = new MyResource1();
+        MyResource2 myResource2 = new MyResource2()) {
+            myResource1.operateWithResource1();
+            myResource2.operateWithResource2();
         }
+
     }
 
-    public static void writeStrings2(File fileFrom, File fileCompareTo, File fileTo) {
-        BufferedReader readerFrom = null;
-        BufferedReader readerCompareTo = null;
-        BufferedWriter writer = null;
-        ArrayList<String> matchStrings = new ArrayList<>();
-        ArrayList<String> allStrings = new ArrayList<>();
+    public static void operateWithResources2()
+            throws Exception {
+        Exception primaryException = null;
+        MyResource1 myResource1 = null;
+        MyResource2 myResource2 = null;
         try {
-            readerFrom = new BufferedReader(new InputStreamReader(new FileInputStream(fileFrom)));
-            readerCompareTo = new BufferedReader(new InputStreamReader
-                    (new FileInputStream(fileCompareTo)));
-            writer = new BufferedWriter(new OutputStreamWriter(
-                    (new FileOutputStream((fileTo)))));
-            doSomething(readerFrom, readerCompareTo, writer, matchStrings, allStrings);
-        } catch (FileNotFoundException fileNotFoundException) {
-            System.err.println("file wasn't found");
+            myResource1 = new MyResource1();
+            myResource2 = new MyResource2();
+            myResource1.operateWithResource1();
+            myResource2.operateWithResource2();
+        } catch (Exception exception) {
+            primaryException = exception;
         } finally {
-            if (readerFrom != null) {
+            if (myResource1 != null) {
                 try {
-                    readerFrom.close();
-                } catch (IOException ioEx) {
-                    System.err.println("Exception during closing readerFrom resource");
+                    myResource1.close();
+                } catch (Exception exception) {
+                    if (primaryException == null) {
+                        primaryException = exception;
+                    } else {
+                        primaryException.addSuppressed(exception);
+                    }
                 }
             }
-            if (readerCompareTo != null) {
+            if (myResource2 != null) {
                 try {
-                    readerCompareTo.close();
-                } catch (IOException ioEx) {
-                    System.err.println("Exception during closing compareTo resource");
+                    myResource2.close();
+                } catch (Exception exception) {
+                    if (primaryException == null) {
+                        primaryException = exception;
+                    } else {
+                        primaryException.addSuppressed(exception);
+                    }
                 }
             }
-            if (writer != null) {
-                try {
-                    writer.close();
-                } catch (IOException ioEx) {
-                    System.err.println("Exception during closing to resource");
-                }
+            if (primaryException != null) {
+                throw primaryException;
             }
-        }
-    }
-
-    private static void doSomething(BufferedReader readerFrom,
-                                    BufferedReader readerCompareTo,
-                                    BufferedWriter writer,
-                                    ArrayList<String> matchStrings,
-                                    ArrayList<String> allStrings) {
-        String line;
-        try {
-            while ((line = readerFrom.readLine()) != null) {
-                allStrings.add(line);
-            }
-            while ((line = readerCompareTo.readLine()) != null) {
-                matchStrings.add(line);
-            }
-            for (String resString : allStrings) {
-                if (matchStrings.contains(resString)) {
-                    writer.write(resString + "\n");
-                }
-            }
-        } catch (IOException ioException) {
-            System.err.println("IOException during operations with readerFrom," +
-                    "readerCompareTo, resString");
         }
     }
 }
