@@ -3,12 +3,11 @@ package ru.mephi.java.part5.extra.TransactionFile;
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.nio.file.StandardCopyOption;
 import java.util.concurrent.TimeUnit;
 
 /**
  * Класс для проведения транзакционного перемещения файла.
- * Логика работы определена функцией transactCopyFile2.
+ * Логика работы определена функцией transactCopyFile.
  * Класс также содержит вспомогательные private-методы для проверки и валидации
  * путей до файлов и контроля доступного дискового пространства.
  */
@@ -29,20 +28,16 @@ public class FileTransactionUtil {
      * @throws FileTransactionException Исключение прерывания и отката транзакции,
      * возникшее на одном из этапов перемещения.
      */
-    public static boolean transactCopyFile2(Path passFrom, Path passTo)
+    public static boolean transactCopyFile(Path passFrom, Path passTo)
             throws FileTransactionException, InterruptedException {
-        // Проверяем валидность перемещаемого файла
+        // Проверяем валидность перемещаемого файла и достаточность дискового пространства
         try {
             FileTransactionUtil.checkPath(passFrom);
+            FileTransactionUtil.checkFreeSpace(passFrom, passTo);
         } catch (IllegalArgumentException illegalArgEx) {
             throw new FileTransactionException(
                     "Path to file isn't valid or object in path isn't a moving file!", illegalArgEx);
-        }
-
-        // Проверяем, достаточно ли дискового пространства для перемещения
-        try {
-            FileTransactionUtil.checkFreeSpace(passFrom, passTo);
-        } catch (Exception ex) {
+        } catch (NotEnoughSpaceException ex) {
             throw new FileTransactionException("Not enough space to move file!", ex);
         }
 
@@ -60,9 +55,8 @@ public class FileTransactionUtil {
             int bytesRead;
             while ((bytesRead = inputStream.read(buf)) > 0) {
                 outputStream.write(buf, 0, bytesRead);
-                boolean checkResult = false;
                 TimeUnit.SECONDS.sleep(3); // для отладки
-                checkResult = checkFreeSpace(passFrom, passTo);
+                checkFreeSpace(passFrom, passTo);
             }
         } catch (FileNotFoundException fnfException) {
             throw new FileTransactionException("Transaction aborted during working with file "
@@ -74,42 +68,32 @@ public class FileTransactionUtil {
             throw new FileTransactionException(
                     "Transaction aborted because of lack of free usable space", notEnoughSpaceEx);
         }
-
-        try {
-            Files.delete(passFrom);
-        } catch (IOException ioException) {
-            System.err.println("Exception raised while deleting source file." +
-                    "Check source file" + "passFrom" + "and delete it manually");
-        }
         return true;
     }
 
     /**
      * Проверяет валидность перемещаемого файла (существование файла, признак файла)
      * @param path Путь до файла
-     * @return true, если проверка успешна.
      * @throws IllegalArgumentException Выбрасывается, файл по указанному пути не существует,
      * либо объект по указанному пути не является файлом.
      */
-    private static boolean checkPath(Path path) {
+    private static void checkPath(Path path) throws IllegalArgumentException {
         if (!Files.exists(path)) {
             throw new IllegalArgumentException("File " + path + " doesn't exist.");
         }
         if (!path.toFile().isFile()) {
             throw new IllegalArgumentException("Path " + path + " doesn't represent a file!");
         }
-        return true;
     }
 
     /**
      * Метод, проверяющий достаточность дискового пространства для совершения транзакции.
      * @param passFrom Путь до перемещаемого файла
      * @param passTo Путь до файла после перемещения
-     * @return true, если свободное место есть.
      * @throws NotEnoughSpaceException Выбрасывает исключение, когда не хватает требуемого места для
      * перемещения файла.
      */
-    private static boolean checkFreeSpace(Path passFrom, Path passTo)
+    private static void checkFreeSpace(Path passFrom, Path passTo)
             throws NotEnoughSpaceException {
         long movingFileSize = passFrom.toFile().length();
         if (new File(passTo.toAbsolutePath().toString().substring(0,3)).getUsableSpace()
@@ -117,26 +101,5 @@ public class FileTransactionUtil {
             throw new NotEnoughSpaceException("Not enough space to moving file "
                     + passFrom + " to" + passTo);
         }
-        return true;
-    }
-
-    public static boolean transactCopyFile1(Path passFrom, Path passTo)
-            throws FileTransactionException {
-        // Проверяем валидность перемещаемого файла
-        FileTransactionUtil.checkPath(passFrom);
-
-        // Проверка на достаточное кол-во дискового пространства
-        File f = new File(passTo.toAbsolutePath().toString().substring(0,3));
-        if (f.getUsableSpace() < passTo.toFile().length()) {
-            throw new FileTransactionException("Transaction aborted! "
-                    + "There is no enough space");
-        }
-        try {
-            Files.move(passFrom, passTo, StandardCopyOption.REPLACE_EXISTING);
-        } catch (IOException ioEx) {
-            throw new FileTransactionException(
-                    "Transaction aborted. Exception raised during moving operation", ioEx);
-        }
-        return false;
     }
 }

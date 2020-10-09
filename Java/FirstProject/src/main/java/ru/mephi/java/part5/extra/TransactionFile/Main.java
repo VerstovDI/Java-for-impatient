@@ -6,9 +6,9 @@ import java.nio.file.Paths;
 public class Main {
     // TODO: реализовать транзакционное перемещения файла. получилось/не получилось
     //  перезаписать, удалить оттуда, если что-то не ок, то откатываем
-    public static void main(String[] args) throws FileTransactionException, InterruptedException {
+    public static void main(String[] args) throws Exception {
         MoveFile moveFileObject = new MoveFile();
-        // Path passTo = Paths.get("E:\\TargetTestDir\\TransactionFile");
+        //Path passTo = Paths.get("E:\\TargetTestDir\\TransactionFile");
 
         /*Path passFrom = Paths.get("E:\\TestDir\\TransactionFile"); // OK-case + нет файла
         moveFileObject.moveFile(passFrom, passTo);*/
@@ -17,7 +17,7 @@ public class Main {
         moveFileObject.moveFile(passFrom, passTo);*/
 
         /*Path passFrom = Paths.get("E:\\TestDir\\test10Mb"); // not enough space case 1
-        Path newPassTo = Paths.get("F:\\");
+        Path newPassTo = Paths.get("F:\\TransactionedFile");
         moveFileObject.moveFile(passFrom, newPassTo);*/
 
         // not enough space main case не забыть вкл. затуп в ф-ии
@@ -30,6 +30,6 @@ public class Main {
         // 4. Функция замечает факт 3, происходит откат транзакции.
         Path lastPassFrom = Paths.get("E:\\TestDir\\test10Mb");
         Path lastPassTo = Paths.get("F:\\test10Mb");
-        moveFileObject.moveFile(lastPassFrom, lastPassTo);;
+        moveFileObject.moveFile(lastPassFrom, lastPassTo);
     }
 }

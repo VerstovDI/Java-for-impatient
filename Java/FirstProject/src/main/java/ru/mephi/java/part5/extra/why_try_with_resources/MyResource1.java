@@ -6,7 +6,7 @@ import java.io.IOException;
 public class MyResource1 implements AutoCloseable {
     public MyResource1() throws FileNotFoundException {
         System.out.println("Trying to create Resource1");
-        // throw new FileNotFoundException("Resource1 wasn't found");
+        //throw new FileNotFoundException("Resource1 wasn't found");
     }
 
     public void operateWithResource1() throws IOException {

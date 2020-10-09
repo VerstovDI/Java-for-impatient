@@ -20,5 +20,7 @@ public class Main {
                 System.out.println(doCalculation.getResult());
             }
         }
+        // sumOfValues()
+        // getResult
     }
 }

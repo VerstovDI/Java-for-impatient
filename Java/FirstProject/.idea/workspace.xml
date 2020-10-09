@@ -22,23 +22,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="147829bf-43cf-4675-bd5e-c8a6fdda5691" name="Default Changelist" comment="Improvements + start extra task">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part5/extra/TransactionFile/FileTransactionUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part5/extra/TransactionFile/MoveFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part5/extra/TransactionFile/NotEnoughSpaceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part5/extra/why_try_with_resources/MyResource1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part5/extra/why_try_with_resources/MyResource2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part5/task04/DoCalculation.java" afterDir="false" />
+    <list default="true" id="147829bf-43cf-4675-bd5e-c8a6fdda5691" name="Default Changelist" comment="Add FileTransaction task, improve ErrorCodes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part5/extra/TransactionFile/FileTransactionUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part5/extra/TransactionFile/FileTransactionUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part5/extra/TransactionFile/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part5/extra/TransactionFile/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part5/extra/TransactionFile/MoveFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part5/extra/TransactionFile/MoveFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part5/extra/why_try_with_resources/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part5/extra/why_try_with_resources/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part5/task04/ErrorCodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part5/task04/ErrorCodes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part5/extra/why_try_with_resources/MyResource1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part5/extra/why_try_with_resources/MyResource1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part5/task04/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part5/task04/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part5/task04/Task04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part5/task04/Task04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part5/task04/ErrorCodes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part5/task04/ErrorCodes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part5/task04/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part5/task04/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part5/task04/Task04.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part5/task04/Task04.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,13 +154,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -177,8 +170,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (2)" />
       </list>
@@ -213,7 +206,11 @@
       <workItem from="1600512641022" duration="631000" />
       <workItem from="1600626812126" duration="1278000" />
       <workItem from="1600691002098" duration="756000" />
-      <workItem from="1601014312907" duration="25251000" />
+      <workItem from="1601014312907" duration="25604000" />
+      <workItem from="1601100287640" duration="5843000" />
+      <workItem from="1601704475476" duration="877000" />
+      <workItem from="1602250905765" duration="5601000" />
+      <workItem from="1602266721618" duration="2453000" />
     </task>
     <task id="LOCAL-00001" summary="First 3 tasks from part 5">
       <created>1599380987318</created>
@@ -292,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600442640945</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Add FileTransaction task, improve ErrorCodes">
+      <created>1601068508769</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1601068508769</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,7 +326,8 @@
     <MESSAGE value="Added task 10. Fix double's delimiter" />
     <MESSAGE value="Added extras" />
     <MESSAGE value="Improvements + start extra task" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improvements + start extra task" />
+    <MESSAGE value="Add FileTransaction task, improve ErrorCodes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add FileTransaction task, improve ErrorCodes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="121" y="0" key="#Project_Structure" timestamp="1599243508700">
@@ -349,22 +354,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1600241278872" />
-    <state width="1237" height="216" key="GridCell.Tab.0.bottom" timestamp="1601068183257">
+    <state width="1237" height="188" key="GridCell.Tab.0.bottom" timestamp="1602269362034">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="216" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1601068183257" />
-    <state width="1237" height="216" key="GridCell.Tab.0.center" timestamp="1601068183256">
+    <state width="1237" height="188" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602269362034" />
+    <state width="1237" height="188" key="GridCell.Tab.0.center" timestamp="1602269362033">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="216" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1601068183256" />
-    <state width="1237" height="216" key="GridCell.Tab.0.left" timestamp="1601068183256">
+    <state width="1237" height="188" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1602269362033" />
+    <state width="1237" height="188" key="GridCell.Tab.0.left" timestamp="1602269362033">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="216" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1601068183256" />
-    <state width="1237" height="216" key="GridCell.Tab.0.right" timestamp="1601068183257">
+    <state width="1237" height="188" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1602269362033" />
+    <state width="1237" height="188" key="GridCell.Tab.0.right" timestamp="1602269362034">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="216" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1601068183257" />
+    <state width="1237" height="188" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1602269362034" />
     <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1599246252760">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -373,10 +378,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1599898231148" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1600442650940">
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1601068513538">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1600442650940" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1601068513538" />
     <state x="371" y="101" key="extract.method.dialog" timestamp="1601021737033">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -439,11 +444,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/ru/mephi/java/part5/extra/why_try_with_resources/Main.java</url>
           <line>8</line>
           <option name="timeStamp" value="43" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/mephi/java/part5/extra/TransactionFile/FileTransactionUtil.java</url>
-          <line>78</line>
-          <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ru/mephi/java/part5/extra/TransactionFile/Main.java</url>

@@ -6,8 +6,8 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        //operateWithResources1();
-        operateWithResources2();
+        operateWithResources1();
+        //operateWithResources2();
     }
 
     public static void operateWithResources1()
@@ -55,9 +55,9 @@ public class Main {
                     }
                 }
             }
-            if (primaryException != null) {
-                throw primaryException;
-            }
+        }
+        if (primaryException != null) {
+            throw primaryException;
         }
     }
 }
