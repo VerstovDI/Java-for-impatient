@@ -7,14 +7,14 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * Класс для проведения транзакционного перемещения файла.
- * Логика работы определена функцией transactCopyFile.
+ * Логика работы определена функцией copyFile.
  * Класс также содержит вспомогательные private-методы для проверки и валидации
  * путей до файлов и контроля доступного дискового пространства.
  */
 public class FileTransactionUtil {
     /** Размер буфера данных, копируемых при перемещении файла **/
     private static final int BUFFER_SIZE = 1024;
-
+    
     /**
      * Функция для транзакционного перемещения файла.
      * Логика работы состоит в предварительной проверке возможности пермещения,
@@ -24,22 +24,14 @@ public class FileTransactionUtil {
      * для перемещения пути, отсутствию изменений в самом файле для перемещения.
      * @param passFrom Путь к файлу, который требуется переместить.
      * @param passTo Путь, куда следует переместить файл
-     * @return true, если перемещение удачное. false, если произошла ошибка
      * @throws FileTransactionException Исключение прерывания и отката транзакции,
      * возникшее на одном из этапов перемещения.
      */
-    public static boolean transactCopyFile(Path passFrom, Path passTo)
-            throws FileTransactionException, InterruptedException {
+    public static void copyFile(Path passFrom, Path passTo)
+            throws FileTransactionException, InterruptedException, NotEnoughSpaceException, IOException {
         // Проверяем валидность перемещаемого файла и достаточность дискового пространства
-        try {
-            FileTransactionUtil.checkPath(passFrom);
-            FileTransactionUtil.checkFreeSpace(passFrom, passTo);
-        } catch (IllegalArgumentException illegalArgEx) {
-            throw new FileTransactionException(
-                    "Path to file isn't valid or object in path isn't a moving file!", illegalArgEx);
-        } catch (NotEnoughSpaceException ex) {
-            throw new FileTransactionException("Not enough space to move file!", ex);
-        }
+        FileTransactionUtil.checkPath(passFrom);
+        FileTransactionUtil.checkFreeSpace(passFrom, passTo);
 
         /* Читаем байты в буфер из перемещамого файла. Проверяем, хватает ли всё ещё места.
          * Если вдруг уже не хватает (например, кто-то уже на этот диск скачивал файл
@@ -58,17 +50,7 @@ public class FileTransactionUtil {
                 TimeUnit.SECONDS.sleep(3); // для отладки
                 checkFreeSpace(passFrom, passTo);
             }
-        } catch (FileNotFoundException fnfException) {
-            throw new FileTransactionException("Transaction aborted during working with file "
-                    + passFrom, fnfException);
-        } catch (IOException ioEx) {
-            throw new FileTransactionException("Transaction aborted during closing resources",
-                    ioEx);
-        } catch (NotEnoughSpaceException notEnoughSpaceEx) {
-            throw new FileTransactionException(
-                    "Transaction aborted because of lack of free usable space", notEnoughSpaceEx);
         }
-        return true;
     }
 
     /**

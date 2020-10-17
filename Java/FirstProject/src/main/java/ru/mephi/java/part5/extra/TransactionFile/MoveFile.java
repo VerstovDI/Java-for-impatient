@@ -10,39 +10,24 @@ public class MoveFile {
         boolean isSourceFileDeleted = false;  // Флаг успешного удаления копируемого файла
         Exception mainEx = null;
         try {
-            isFileCopied = FileTransactionUtil.transactCopyFile(passFrom, passTo);
+            FileTransactionUtil.copyFile(passFrom, passTo);
         } catch (FileTransactionException | InterruptedException fileTransactEx) {
             mainEx = fileTransactEx;
         } finally {
-            if (isFileCopied) {
-                try {
-                    Files.delete(passFrom);
-                    isSourceFileDeleted = true;
-                } catch (IOException ioException) {
-                    System.err.println("Exception raised while deleting source file." +
-                            "Check source file" + "passFrom" + "and delete it manually");
-                } finally {
-                    if (isSourceFileDeleted) {
-                        System.err.println("Transaction successfully completed!");
-                    }
+            try {
+                Files.delete(passTo);
+            } catch (IOException ioEx) {
+                System.err.println("Can't delete target file");
+                if (mainEx != null) {
+                    mainEx.addSuppressed(ioEx);
+                } else {
+                    mainEx = ioEx;
                 }
-            } else {
-                try {
-                    Files.delete(passTo);
-                } catch (IOException ioEx) {
-                    System.err.println("Can't delete target file");
-                    if (mainEx != null) {
-                        mainEx.addSuppressed(ioEx);
-                    } else {
-                        mainEx = ioEx;
-                    }
-                }
-                System.err.println("Transaction aborted. Rollback!");
             }
+            System.err.println("Transaction aborted. Rollback!");
         }
         if (mainEx != null) {
             throw mainEx;
         }
-
     }
 }
