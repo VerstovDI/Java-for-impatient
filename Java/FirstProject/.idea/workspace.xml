@@ -22,12 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="147829bf-43cf-4675-bd5e-c8a6fdda5691" name="Default Changelist" comment="Fixed Transaction Extra Task">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part5/extra/TransactionFile/FileTransactionUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part5/extra/TransactionFile/FileTransactionUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part5/extra/TransactionFile/MoveFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part5/extra/TransactionFile/MoveFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part5/task04/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part5/task04/Main.class" afterDir="false" />
-    </list>
+    <list default="true" id="147829bf-43cf-4675-bd5e-c8a6fdda5691" name="Default Changelist" comment="Fixed Transaction Extra Task" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +44,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="E:\IntelliJ IDEA 2020.1.3\plugins\maven\lib\maven3" />
+        <option name="mavenHome" value="D:\IntelliJ IDEA 2020.1.1\plugins\maven\lib\maven3" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -199,6 +194,7 @@
       <workItem from="1602505247741" duration="1233000" />
       <workItem from="1602850495886" duration="2131000" />
       <workItem from="1602914649542" duration="4827000" />
+      <workItem from="1603447283180" duration="283000" />
     </task>
     <task id="LOCAL-00001" summary="First 3 tasks from part 5">
       <created>1599380987318</created>
