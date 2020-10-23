@@ -5,4 +5,5 @@ public class ObjectStack<E> {
 
     public ObjectStack() {
     }
+    // TODO: сделать вторую часть задания
 }
