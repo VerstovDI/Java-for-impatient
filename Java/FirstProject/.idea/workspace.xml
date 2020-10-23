@@ -22,12 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="147829bf-43cf-4675-bd5e-c8a6fdda5691" name="Default Changelist" comment="minor fixes">
-      <change afterPath="$PROJECT_DIR$/.idea/FirstProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/task03/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/task04/Main.java" afterDir="false" />
+    <list default="true" id="147829bf-43cf-4675-bd5e-c8a6fdda5691" name="Default Changelist" comment="part 6, task 2(TypedStack with E[])">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/task03/Entry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/task03/Table.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/task01/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/task01/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/task02/ObjectStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/task02/ObjectStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/task02/TypedStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/task02/TypedStack.java" afterDir="false" />
     </list>
@@ -216,7 +214,7 @@
       <workItem from="1602934266759" duration="692000" />
       <workItem from="1603268914427" duration="41000" />
       <workItem from="1603366685077" duration="2800000" />
-      <workItem from="1603454934648" duration="6761000" />
+      <workItem from="1603454934648" duration="8342000" />
     </task>
     <task id="LOCAL-00001" summary="First 3 tasks from part 5">
       <created>1599380987318</created>
@@ -316,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602934314426</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="part 6, task 2(TypedStack with E[])">
+      <created>1603464593368</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1603464593368</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -349,18 +354,19 @@
     <MESSAGE value="Add FileTransaction task, improve ErrorCodes" />
     <MESSAGE value="Fixed Transaction Extra Task" />
     <MESSAGE value="Fixed Transaction Extra Task. Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed Transaction Extra Task. Done" />
+    <MESSAGE value="part 6, task 2(TypedStack with E[])" />
+    <option name="LAST_COMMIT_MESSAGE" value="part 6, task 2(TypedStack with E[])" />
   </component>
   <component name="WindowStateProjectService">
     <state x="121" y="0" key="#Project_Structure" timestamp="1599243508700">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1599243508700" />
-    <state x="992" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1603456485673">
+    <state x="992" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1603465875031">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="661" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1601063371582" />
-    <state x="992" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603456485673" />
+    <state x="992" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603465875031" />
     <state x="280" y="265" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1599828352697">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -377,42 +383,42 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1602508317023" />
-    <state width="1867" height="335" key="GridCell.Tab.0.bottom" timestamp="1603464461349">
+    <state width="1867" height="270" key="GridCell.Tab.0.bottom" timestamp="1603465323569">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="188" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1603368964616" />
-    <state width="1867" height="335" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603464461349" />
-    <state width="1867" height="335" key="GridCell.Tab.0.center" timestamp="1603464461348">
+    <state width="1867" height="270" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603465323569" />
+    <state width="1867" height="270" key="GridCell.Tab.0.center" timestamp="1603465323569">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="188" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1603368964616" />
-    <state width="1867" height="335" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603464461348" />
-    <state width="1867" height="335" key="GridCell.Tab.0.left" timestamp="1603464461348">
+    <state width="1867" height="270" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603465323569" />
+    <state width="1867" height="270" key="GridCell.Tab.0.left" timestamp="1603465323569">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="188" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1603368964616" />
-    <state width="1867" height="335" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603464461348" />
-    <state width="1867" height="335" key="GridCell.Tab.0.right" timestamp="1603464461349">
+    <state width="1867" height="270" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603465323569" />
+    <state width="1867" height="270" key="GridCell.Tab.0.right" timestamp="1603465323569">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="188" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1603368964616" />
-    <state width="1867" height="335" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603464461349" />
-    <state width="1867" height="335" key="GridCell.Tab.1.bottom" timestamp="1603464451473">
+    <state width="1867" height="270" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603465323569" />
+    <state width="1867" height="335" key="GridCell.Tab.1.bottom" timestamp="1603464891685">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="335" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603464451473" />
-    <state width="1867" height="335" key="GridCell.Tab.1.center" timestamp="1603464451473">
+    <state width="1867" height="335" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603464891685" />
+    <state width="1867" height="335" key="GridCell.Tab.1.center" timestamp="1603464891685">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="335" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603464451473" />
-    <state width="1867" height="335" key="GridCell.Tab.1.left" timestamp="1603464451472">
+    <state width="1867" height="335" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603464891685" />
+    <state width="1867" height="335" key="GridCell.Tab.1.left" timestamp="1603464891685">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="335" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603464451472" />
-    <state width="1867" height="335" key="GridCell.Tab.1.right" timestamp="1603464451473">
+    <state width="1867" height="335" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603464891685" />
+    <state width="1867" height="335" key="GridCell.Tab.1.right" timestamp="1603464891685">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="335" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603464451473" />
+    <state width="1867" height="335" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603464891685" />
     <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1599246252760">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -422,10 +428,11 @@
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1599898231148" />
     <state x="313" y="98" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603455105284" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1602934318695">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="350" y="112" key="Vcs.Push.Dialog.v2" timestamp="1603464596242">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1602934318695" />
+    <state x="350" y="112" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603464596242" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603447651593">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -497,6 +504,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/ru/mephi/java/part5/extra/TransactionFile/Main.java</url>
           <line>30</line>
           <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/task02/Main.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="71" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/ru/mephi/java/part5/task05/Main.java</url>

@@ -1,7 +1,6 @@
 package ru.mephi.java.part6.task02;
 
 import java.lang.reflect.Array;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.EmptyStackException;
 
@@ -19,6 +18,9 @@ public class TypedStack<E> {
 
     @SuppressWarnings("unchecked")
     public TypedStack(int initialCapacity) {
+        if (initialCapacity < 0) {
+            throw new IllegalArgumentException("Initial capacity must be positive!");
+        }
         this.initialCapacity = initialCapacity;
         stack = (E[]) new Object[initialCapacity];
         stackSize = 0;
@@ -33,7 +35,6 @@ public class TypedStack<E> {
     }*/
 
     public E push(E element) {
-        //ArrayList
         int len = stack.length;
         if (stack.length == stackSize) {
             len = stack.length * 3 / 2;
@@ -56,6 +57,7 @@ public class TypedStack<E> {
 
     public E remove() {
         if (isEmpty()) {
+            System.err.println("Can't remove the element from an empty stack!");
             throw new EmptyStackException();
         }
         E removedElement = stack[stackSize - 1];
@@ -65,6 +67,7 @@ public class TypedStack<E> {
 
     public E peek() {
         if (stack.length == 0) {
+            System.err.println("Can't peek the element from an empty stack!");
             throw new EmptyStackException();
         }
         return stack[stackSize - 1];
