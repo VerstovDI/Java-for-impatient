@@ -1,6 +1,5 @@
 package ru.mephi.java.part5.task04;
 
-import javax.xml.ws.EndpointReference;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;

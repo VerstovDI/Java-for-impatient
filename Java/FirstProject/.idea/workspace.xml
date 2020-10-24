@@ -22,11 +22,187 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="147829bf-43cf-4675-bd5e-c8a6fdda5691" name="Default Changelist" comment="Task 3 added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/task04/Table.java" afterDir="false" />
+    <list default="true" id="147829bf-43cf-4675-bd5e-c8a6fdda5691" name="Default Changelist" comment="Task 3 minor fixes + Task 4">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/TheoryStaff/PECS/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/TheoryStaff/PECS/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/TheoryStaff/PECS/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/TheoryStaff/PECS/Slave.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/task06/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/task03/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/task03/Table.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/task04/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/task04/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part1/t09/task09.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part1/t09/task09.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part5/task04/Task04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part5/task04/Task04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/forTask12Part2/HelloWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/forTask12Part2/HelloWorld.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/lectureExamples/LectureEx$Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/lectureExamples/LectureEx$Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/lectureExamples/LectureEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/lectureExamples/LectureEx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/lectureExamples/crazyIterator/MyIterator2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/lectureExamples/crazyIterator/MyIterator2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part1/t01/Task01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part1/t01/Task01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part1/t02/Task02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part1/t02/Task02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part1/t03/Task03.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part1/t03/Task03.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part1/t04/Task04.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part1/t04/Task04.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part1/t05/Task05.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part1/t05/Task05.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part1/t06/Task06.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part1/t06/Task06.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part1/t07/Task07.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part1/t07/Task07.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part1/t08/Task08.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part1/t08/Task08.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part1/t09/task09.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part1/t09/task09.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part1/t10/Task10.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part1/t10/Task10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part1/t11/task11.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part1/t11/task11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part1/t12/task12.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part1/t12/task12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part1/t13/task13.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part1/t13/task13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part1/t14/task14.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part1/t14/task14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part1/t15/task15.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part1/t15/task15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part1/t16/task16.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part1/t16/task16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/Again3rdSeptember/Again3rdSeptember.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/Again3rdSeptember/Again3rdSeptember.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/Again3rdSeptember/CalendarBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/Again3rdSeptember/CalendarBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/Queue3/ExtraTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/Queue3/ExtraTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/Queue3/Queue3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/Queue3/Queue3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/task01/Task01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/task01/Task01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/task02/Task02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/task02/Task02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/task03/Task03.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/task03/Task03.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/task04/IntHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/task04/IntHolder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/task04/Task04.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/task04/Task04.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/task05/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/task05/Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/task05/Task05.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/task05/Task05.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/task06/ModPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/task06/ModPoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/task06/Task06.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/task06/Task06.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/task07/Task07.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/task07/Task07.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/task08/Task08.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/task08/Task08.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/task09/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/task09/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/task09/Task09.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/task09/Task09.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/task10/RandomNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/task10/RandomNumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/task10/Task10.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/task10/Task10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/task11/Task11.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/task11/Task11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/task12/Task12.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/task12/Task12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/task16/Queue1$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/task16/Queue1$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/task16/Queue1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/task16/Queue1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/task16/Task16.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/task16/Task16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/task17/Queue2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/task17/Queue2$Iterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/task17/Queue2$Iterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/task17/Queue2$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/task17/Queue2$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/task17/Queue2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/task17/Queue2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/task17/Task17.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part2/task17/Task17.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/MyIterators/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/MyIterators/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/MyIterators/MyIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/MyIterators/MyIterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/MyIterators/MyIterator3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/MyIterators/MyIterator3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/Theory1/InsertionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/Theory1/InsertionSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/Theory1/IntSorter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/Theory1/IntSorter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/Theory1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/Theory1/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/Theory1/SelectionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/Theory1/SelectionSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/Theory1/ShellSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/Theory1/ShellSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/Theory2/p1/DeviationCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/Theory2/p1/DeviationCalculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/Theory2/p1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/Theory2/p1/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/Theory2/p1/Metric.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/Theory2/p1/Metric.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/Theory2/p2/INumericSeparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/Theory2/p2/INumericSeparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/Theory2/p2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/Theory2/p2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/Theory2/p2/NumTransfer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/Theory2/p2/NumTransfer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/Theory3/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/Theory3/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/Theory3/Converter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/Theory3/Converter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/Theory3/IChangeSpecies.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/Theory3/IChangeSpecies.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/Theory3/IPersonMaker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/Theory3/IPersonMaker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/Theory3/IPrintInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/Theory3/IPrintInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/Theory3/IStringHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/Theory3/IStringHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/Theory3/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/Theory3/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/Theory3/SomeStringClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/Theory3/SomeStringClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/Theory3/StringChecker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/Theory3/StringChecker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/Theory3/StringConsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/Theory3/StringConsumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/Theory3/Tester.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/Theory3/Tester.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task01/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task01/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task01/IMeasurable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task01/IMeasurable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task01/Task01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task01/Task01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task02/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task02/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task02/IMeasurable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task02/IMeasurable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task02/Task02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task02/Task02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task03/Task03.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task03/Task03.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task04/IntSequence$1ReturnedIntSequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task04/IntSequence$1ReturnedIntSequence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task04/IntSequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task04/IntSequence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task04/IntSequenceExtra$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task04/IntSequenceExtra$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task04/IntSequenceExtra.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task04/IntSequenceExtra.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task04/Task04.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task04/Task04.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task05/IntSequence$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task05/IntSequence$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task05/IntSequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task05/IntSequence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task05/IntSequenceExtra.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task05/IntSequenceExtra.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task05/Task05.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task05/Task05.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task06/DigitSequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task06/DigitSequence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task06/Task06.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task06/Task06.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task07/Task07.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task07/Task07.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task08/Greeter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task08/Greeter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task08/Task08.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task08/Task08.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task09/RunnableTaskClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task09/RunnableTaskClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task09/Task09.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task09/Task09.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task10/Task10$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task10/Task10$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task10/Task10.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task10/Task10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task11/Task11.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task11/Task11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task12/Task12.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task12/Task12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task13/Task13$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task13/Task13$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task13/Task13.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task13/Task13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task14/Task14.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task14/Task14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task15/IntSequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task15/IntSequence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task15/Task15$RandomSequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task15/Task15$RandomSequence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task15/Task15.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task15/Task15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task16Extra/MyStringComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task16Extra/MyStringComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task16Extra/MyStringComparators$MyNullComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task16Extra/MyStringComparators$MyNullComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task16Extra/MyStringComparators.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task16Extra/MyStringComparators.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task16Extra/Task16.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/task16Extra/Task16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/extras/classLoadersEx/CustomClassLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/extras/classLoadersEx/CustomClassLoader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/extras/classLoadersEx/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/extras/classLoadersEx/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/extras/classLoadersEx/SomeClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/extras/classLoadersEx/SomeClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/extras/toStringExplanation/PhoneNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/extras/toStringExplanation/PhoneNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/extras/toStringExplanation/ToStringExamples.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/extras/toStringExplanation/ToStringExamples.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task01/LabeledPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task01/LabeledPoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task01/LabeledPoint2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task01/LabeledPoint2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task01/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task01/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task01/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task01/Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task01/Point2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task01/Point2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task02/LabeledPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task02/LabeledPoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task02/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task02/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task02/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task02/Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task03/LabeledPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task03/LabeledPoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task03/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task03/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task03/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task03/Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task03/anotherPackage/exampleClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task03/anotherPackage/exampleClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task04/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task04/Circle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task04/Line.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task04/Line.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task04/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task04/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task04/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task04/Rectangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task04/Shape.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task04/Shape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task05/LookInside.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task05/LookInside.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task06/DiscountedItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task06/DiscountedItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task06/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task06/Item.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task06/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task06/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task07/Colors.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task07/Colors.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task07/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task07/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task08/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task08/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task08/SomeClass$SomeNestedClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task08/SomeClass$SomeNestedClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task08/SomeClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task08/SomeClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task09/AnotherTestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task09/AnotherTestClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task09/Class1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task09/Class1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task09/Class2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task09/Class2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task09/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task09/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task09/TestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task09/TestClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task09/UniversalToString.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task09/UniversalToString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task09/UniversalToString1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task09/UniversalToString1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task09/UniversalToString2$ObjectInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task09/UniversalToString2$ObjectInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task09/UniversalToString2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task09/UniversalToString2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task10/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task10/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task11/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task11/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task12/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task12/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task13/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/task13/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part5/task01/Task01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part5/task01/Task01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part5/task02/Task02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part5/task02/Task02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part5/task03/Task03.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part5/task03/Task03.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part5/task04/ErrorCodes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part5/task04/ErrorCodes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part5/task04/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part5/task04/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part5/task04/Task04.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part5/task04/Task04.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part5/task05/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part5/task05/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part5/task05/Task05.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part5/task05/Task05.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part5/task06/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part5/task06/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part5/task06/Task06.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part5/task06/Task06.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part5/task07/Task07.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part5/task07/Task07.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part5/task11/Task11.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part5/task11/Task11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part5/task12/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part5/task12/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part5/task12/Task12.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part5/task12/Task12.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,9 +246,9 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part6.task01.Main" />
       <module name="FirstProject" />
@@ -100,11 +276,11 @@
       </method>
     </configuration>
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part5.extra.why_try_with_resources.Main" />
+      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part6.task06.Main" />
       <module name="FirstProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.mephi.java.part5.extra.why_try_with_resources.*" />
+          <option name="PATTERN" value="ru.mephi.java.part6.task06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,19 +314,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part5.extra.CatchThrowChain.Main" />
-      <module name="FirstProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.mephi.java.part5.extra.CatchThrowChain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -166,11 +329,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -215,6 +378,8 @@
       <workItem from="1602934266759" duration="692000" />
       <workItem from="1603268914427" duration="41000" />
       <workItem from="1603366685077" duration="2800000" />
+      <workItem from="1603520144063" duration="6571000" />
+      <workItem from="1603528043300" duration="1836000" />
     </task>
     <task id="LOCAL-00001" summary="First 3 tasks from part 5">
       <created>1599380987318</created>
@@ -321,7 +486,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603473066533</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Task 3 minor fixes + Task 4">
+      <created>1603474465421</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1603474465421</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -355,17 +527,18 @@
     <MESSAGE value="Fixed Transaction Extra Task" />
     <MESSAGE value="Fixed Transaction Extra Task. Done" />
     <MESSAGE value="Task 3 added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 3 added" />
+    <MESSAGE value="Task 3 minor fixes + Task 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 3 minor fixes + Task 4" />
   </component>
   <component name="WindowStateProjectService">
     <state x="121" y="0" key="#Project_Structure" timestamp="1599243508700">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1599243508700" />
-    <state x="661" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1603472832518">
+    <state x="661" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1603523470093">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="661" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1603472832518" />
+    <state x="661" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1603523470093" />
     <state x="280" y="265" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1599828352697">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -382,34 +555,34 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1602508317023" />
-    <state width="1237" height="188" key="GridCell.Tab.0.bottom" timestamp="1603473023292">
+    <state width="1237" height="188" key="GridCell.Tab.0.bottom" timestamp="1603529735535">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="188" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1603473023292" />
-    <state width="1237" height="188" key="GridCell.Tab.0.center" timestamp="1603473023292">
+    <state width="1237" height="188" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1603529735535" />
+    <state width="1237" height="188" key="GridCell.Tab.0.center" timestamp="1603529735535">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="188" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1603473023292" />
-    <state width="1237" height="188" key="GridCell.Tab.0.left" timestamp="1603473023292">
+    <state width="1237" height="188" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1603529735535" />
+    <state width="1237" height="188" key="GridCell.Tab.0.left" timestamp="1603529735535">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="188" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1603473023292" />
-    <state width="1237" height="188" key="GridCell.Tab.0.right" timestamp="1603473023292">
+    <state width="1237" height="188" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1603529735535" />
+    <state width="1237" height="188" key="GridCell.Tab.0.right" timestamp="1603529735535">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="188" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1603473023292" />
+    <state width="1237" height="188" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1603529735535" />
     <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1599246252760">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="171" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.680@0.0.1280.680" timestamp="1599246252760" />
-    <state x="121" y="0" key="SettingsEditor" timestamp="1599898231148">
+    <state x="121" y="0" key="SettingsEditor" timestamp="1603528197628">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1599898231148" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1603473070388">
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1603528197628" />
+    <state x="-39" y="32" key="Vcs.Push.Dialog.v2" timestamp="1603474470175">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1603473070388" />
+    <state x="-39" y="32" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1603474470175" />
     <state x="371" y="101" key="extract.method.dialog" timestamp="1601021737033">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -430,10 +603,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1603472192252" />
-    <state x="415" y="147" width="672" height="444" key="search.everywhere.popup" timestamp="1603473000673">
+    <state x="415" y="147" width="672" height="444" key="search.everywhere.popup" timestamp="1603527983113">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="415" y="147" width="672" height="444" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1603473000673" />
+    <state x="415" y="147" width="672" height="444" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1603527983113" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -465,7 +638,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ru/mephi/java/part5/task04/Task04.java</url>
-          <line>21</line>
+          <line>20</line>
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

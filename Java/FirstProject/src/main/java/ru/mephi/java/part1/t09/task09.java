@@ -1,6 +1,5 @@
 package ru.mephi.java.part1.t09;
 
-import javafx.beans.binding.StringBinding;
 
 import java.util.Arrays;
 
