@@ -1,6 +1,6 @@
 package ru.mephi.java.part6.task08;
 
-public class Pair<E extends Comparable<E>> {
+public class Pair<E extends Comparable<? super E>> {
     private E elementLeft;
     private E elementRight;
 
