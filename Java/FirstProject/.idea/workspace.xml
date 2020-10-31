@@ -22,9 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="147829bf-43cf-4675-bd5e-c8a6fdda5691" name="Default Changelist" comment="Task 16, Task 18 DONE">
+    <list default="true" id="147829bf-43cf-4675-bd5e-c8a6fdda5691" name="Default Changelist" comment="Task 20 DONE">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/task22/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/task24/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/task20/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/task20/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,24 +137,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -200,6 +190,8 @@
       <workItem from="1603366685077" duration="2800000" />
       <workItem from="1603520144063" duration="6571000" />
       <workItem from="1603528043300" duration="2754000" />
+      <workItem from="1604143649652" duration="55000" />
+      <workItem from="1604143738658" duration="1375000" />
     </task>
     <task id="LOCAL-00001" summary="First 3 tasks from part 5">
       <created>1599380987318</created>
@@ -334,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603879624658</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Task 20 DONE">
+      <created>1603881241362</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1603881241362</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,7 +371,8 @@
     <MESSAGE value="Task 6 + start Theory examples + minor fixes + JDK 15" />
     <MESSAGE value="Task 12 DONE" />
     <MESSAGE value="Task 16, Task 18 DONE" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 16, Task 18 DONE" />
+    <MESSAGE value="Task 20 DONE" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 20 DONE" />
   </component>
   <component name="WindowStateProjectService">
     <state x="121" y="0" key="#Project_Structure" timestamp="1599243508700">
@@ -399,22 +399,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1602508317023" />
-    <state width="1237" height="188" key="GridCell.Tab.0.bottom" timestamp="1603878760199">
+    <state width="1237" height="188" key="GridCell.Tab.0.bottom" timestamp="1603884252678">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="188" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1603878760199" />
-    <state width="1237" height="188" key="GridCell.Tab.0.center" timestamp="1603878760199">
+    <state width="1237" height="188" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1603884252678" />
+    <state width="1237" height="188" key="GridCell.Tab.0.center" timestamp="1603884252676">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="188" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1603878760199" />
-    <state width="1237" height="188" key="GridCell.Tab.0.left" timestamp="1603878760199">
+    <state width="1237" height="188" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1603884252676" />
+    <state width="1237" height="188" key="GridCell.Tab.0.left" timestamp="1603884252676">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="188" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1603878760199" />
-    <state width="1237" height="188" key="GridCell.Tab.0.right" timestamp="1603878760199">
+    <state width="1237" height="188" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1603884252676" />
+    <state width="1237" height="188" key="GridCell.Tab.0.right" timestamp="1603884252677">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="188" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1603878760199" />
+    <state width="1237" height="188" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1603884252677" />
     <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1599246252760">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -423,10 +423,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1603528197628" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1603879629555">
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1603881246788">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1603879629555" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1603881246788" />
     <state x="371" y="101" key="extract.method.dialog" timestamp="1601021737033">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -435,10 +435,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="347" y="73" width="587" height="534" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1599382425514" />
-    <state width="727" height="500" key="javadoc.popup.new" timestamp="1603881204775">
+    <state width="727" height="500" key="javadoc.popup.new" timestamp="1604144747876">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="727" height="500" key="javadoc.popup.new/0.0.1280.680@0.0.1280.680" timestamp="1603881204775" />
+    <state width="727" height="500" key="javadoc.popup.new/0.0.1280.680@0.0.1280.680" timestamp="1604144747876" />
     <state x="232" y="1" key="new project wizard" timestamp="1599498419525">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
