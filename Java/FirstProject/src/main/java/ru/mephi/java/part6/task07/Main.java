@@ -5,6 +5,5 @@ public class Main {
         Pair<String> pair = new Pair<>("LEFT JOIN", "RIGHT JOIN");
         System.out.println(pair.getElementLeft());
         System.out.println(pair.getElementRight());
-        // TODO: яблоко, стринг, ломать
     }
 }

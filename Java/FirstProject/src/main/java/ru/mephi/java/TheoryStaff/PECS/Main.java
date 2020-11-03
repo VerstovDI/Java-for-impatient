@@ -1,5 +1,7 @@
 package ru.mephi.java.TheoryStaff.PECS;
 
+import ru.mephi.java.part6.task07.Pair;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -8,6 +10,13 @@ import java.util.stream.IntStream;
 
 public class Main {
     public static void main(String[] args) {
+        /*
+        Несмотря на <см. package InvCoContrvariance>
+        есть способ сделать дженерики covariant/contravariant,
+        используя upper/lower bounded wildcards соответственно:
+        List<? extends Number> myNums1 = new ArrayList<Integer>(); // covariance, compile ok
+        List<? super Integer> myNums2 = new ArrayList<Number>(); // contravariance, compile ok
+         */
         Slave slave1 = new Slave("managerField0",
                 "employeeField0", "dig");
         Employee employee1 = new Employee("managerField1",
@@ -29,9 +38,10 @@ public class Main {
         // anotherEmpList.add(slave1);
         /*
          because you cannot know at runtime which specific subtype of Employee the collection holds.
-         ? - это любой из наследников. В рантайм не знаем, какой именно массив
+         Т.к. это любой из наследников, то в рантайм не знаем, какой именно массив
          */
-        //numberList is a producer of subtypes of numbers. Hence is generified with ? extends Number. Producer->Extends
+        //numberList is a producer of subtypes of numbers.
+        // Hence is generified with ? extends Number. Producer->Extends
         final List<? extends Number> numberList = DoubleStream.of(-99, 1, 2, 3, 4, 5, 6)
                 .boxed().collect(Collectors.toList());
         //numberList.add(new Integer(1)); //Cannot add integer to this list, even though integer is a subtype of number.
@@ -48,6 +58,15 @@ public class Main {
         //final Integer integer = integerList.get(0); //Cannot get values as Integer or Number
         final Object integer = integerList.get(0); //Can only get value in an  Object reference
         System.out.println(integer.toString());
+
+        Pair<String> stringPair = new Pair();
+        Pair<Employee> employeePair = new Pair();
+        stringPair = (Pair) employeePair;
+
+        Pair<String> anotherStringPair = new Pair();
+        anotherStringPair
+                .setElementLeft((String)(Object) new Employee("a","b"));
+
     }
 
     public static void printStaff(ArrayList<? extends Employee> staff) {

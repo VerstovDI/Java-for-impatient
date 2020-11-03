@@ -10,7 +10,6 @@ public class ObjectStack<E> {
     private int initialCapacity = 10;
     private int stackSize;
 
-    // TODO: разобраться, что и почему я буду использовать
     public ObjectStack() {
         stack = new Object[initialCapacity];
         stackSize = 0;
@@ -84,5 +83,4 @@ public class ObjectStack<E> {
                 ", stackSize=" + stackSize +
                 '}';
     }
-    // TODO: сделать вторую часть задания
 }

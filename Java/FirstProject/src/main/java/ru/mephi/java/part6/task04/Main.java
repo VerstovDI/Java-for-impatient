@@ -10,7 +10,6 @@ public class Main {
         table.add(5, "Vanya");
         table.add(6, "Karpen");
         table.add(7, "Pokek");
-        // TODO: task 3 & task 4 -> вынести тестирование в отдельный метод, убрать дубликаты
         table.add(8, "Vasilina");
         System.out.println(table);
         System.out.println(table.get(1));
