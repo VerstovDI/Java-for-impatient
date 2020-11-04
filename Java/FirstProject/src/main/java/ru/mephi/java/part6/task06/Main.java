@@ -1,10 +1,9 @@
 package ru.mephi.java.part6.task06;
 
-import ru.mephi.java.TheoryStaff.PECS.Employee;
-import ru.mephi.java.TheoryStaff.PECS.Manager;
+import ru.mephi.java.part6.TheoryStaff.PECS.Employee;
+import ru.mephi.java.part6.TheoryStaff.PECS.Manager;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 public class Main {

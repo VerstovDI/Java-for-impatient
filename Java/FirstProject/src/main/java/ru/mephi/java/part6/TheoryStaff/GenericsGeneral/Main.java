@@ -1,4 +1,4 @@
-package ru.mephi.java.TheoryStaff.GenericsGeneral;
+package ru.mephi.java.part6.TheoryStaff.GenericsGeneral;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -40,6 +40,13 @@ public class Main {
             System.out.println(str);
         }
 
-
+        // TODO: Как использовать дженерики неправильно,чтобы это было небезопасно
+        // TODO: Зачем нужны ко- и контр-вариантность. Примеры кода, рассказать, почему
+        // без них не получилось бы
+        // TODO: переписать minmax  без super
+        // TODO: почему сигнатура TypedStack#newArray неправильная? (Class<?> -> Class<T>)
+        // TODO: второй безопасный способ создать массив T[]
+        // TODO: слайд Class, 5 строчек. Привести примеры. 1 раз с использованием рефлексии,
+        // 1 раз с использованием лямбда-выражений.
     }
 }

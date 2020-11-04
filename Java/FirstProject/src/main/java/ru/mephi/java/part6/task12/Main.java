@@ -9,12 +9,12 @@ public class Main {
     public static void main(String[] args) {
         List<Integer> ints = Arrays.asList(3,4,3,-5,6,10,23);
         List<Integer> result = new ArrayList<>();
-        minmax(ints, Comparator.comparingInt(o -> o), result);
+        //minmax(ints, Comparator.comparingInt(o -> o), result);
         System.out.println(result);
     }
 
     public static <T> void minmax(List<T> elements,
-                                  Comparator<? super T> comp, List<? super T> result) {
+                                  Comparator<Object> comp, List<Object> result) {
         if (elements.size() > 0) {
             T min = elements.get(0);
             T max = elements.get(0);

@@ -1,8 +1,6 @@
-package ru.mephi.java.TheoryStaff.InvCoContrvariance;
+package ru.mephi.java.part6.TheoryStaff.InvCoContrvariance;
 
 import java.util.ArrayList;
-import java.util.List;
-import java.util.Optional;
 
 public class Examples {
     public static void main(String[] args) {

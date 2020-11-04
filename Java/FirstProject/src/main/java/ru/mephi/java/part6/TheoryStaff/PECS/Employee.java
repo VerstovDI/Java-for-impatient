@@ -1,4 +1,4 @@
-package ru.mephi.java.TheoryStaff.PECS;
+package ru.mephi.java.part6.TheoryStaff.PECS;
 
 public class Employee extends Manager {
     private String someEmployeeField;

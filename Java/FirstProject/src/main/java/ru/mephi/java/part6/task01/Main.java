@@ -24,6 +24,9 @@ public class Main {
         System.out.println(integerStack.push(108));
         System.out.println(integerStack.push(109));
         System.out.println(integerStack.pop());
-
+        Class<?> clazz = Number.class;
+        Integer int1 = 5;
+        clazz.cast(int1);
+        System.out.println(int1);
     }
 }

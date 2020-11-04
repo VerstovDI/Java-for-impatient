@@ -1,4 +1,4 @@
-package ru.mephi.java.TheoryStaff.PECS;
+package ru.mephi.java.part6.TheoryStaff.PECS;
 
 import ru.mephi.java.part6.task07.Pair;
 

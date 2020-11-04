@@ -24,6 +24,7 @@ public class TypedStack<E> {
         this.initialCapacity = initialCapacity;
         stack = (E[]) new Object[initialCapacity];
         stackSize = 0;
+        //Class<?>
     }
     /*
     but it will create array of objects so you will be able to insert there any object via raw type reference.
@@ -34,7 +35,7 @@ public class TypedStack<E> {
         elementData = (E[])Array.newInstance(c, initialCapacity);
     }*/
 
-    public E push(E element) {
+    /*public E push(E element) {
         int len = stack.length;
         if (stack.length == stackSize) {
             len = stack.length * 3 / 2;
@@ -48,7 +49,7 @@ public class TypedStack<E> {
         stackSize++;
         return element;
     }
-
+*/
     public E pop() {
         E popElement = peek();
         remove();
@@ -78,7 +79,7 @@ public class TypedStack<E> {
     }
 
     @SuppressWarnings("unchecked")
-    private static <T> T[] newArray(Class<?> type, int len) {
+    private static <T> T[] newArray(Class<T> type, int len) {
         return (T[]) Array.newInstance(type, len);
     }
 

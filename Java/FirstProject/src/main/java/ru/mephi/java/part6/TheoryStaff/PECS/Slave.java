@@ -1,6 +1,4 @@
-package ru.mephi.java.TheoryStaff.PECS;
-
-import ru.mephi.java.TheoryStaff.PECS.Employee;
+package ru.mephi.java.part6.TheoryStaff.PECS;
 
 public class Slave extends Employee {
     protected String purpose;
