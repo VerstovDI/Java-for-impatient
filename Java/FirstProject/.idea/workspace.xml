@@ -22,24 +22,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="147829bf-43cf-4675-bd5e-c8a6fdda5691" name="Default Changelist" comment="Minor fixes (delete TODO's, add theory staff)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/TheoryStaff/Other/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/TheoryStaff/Other/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/TheoryStaff/Other/Main.java" afterDir="false" />
+    <list default="true" id="147829bf-43cf-4675-bd5e-c8a6fdda5691" name="Default Changelist" comment="Add extra tasks">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/ClassClass/Examples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/GenericArraySupplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/GenericsDestruction/DestroyGenerics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/GenericsDestruction/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/GenericsDestruction/SomethingHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/UnsafeSignature/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/СoContrVariance/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/СoContrVariance/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/СoContrVariance/SomeMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/TheoryStaff/GenericsGeneral/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/TheoryStaff/GenericsGeneral/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/TheoryStaff/InvCoContrvariance/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/TheoryStaff/InvCoContrvariance/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/TheoryStaff/InvCoContrvariance/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/TheoryStaff/InvCoContrvariance/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/TheoryStaff/InvCoContrvariance/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/TheoryStaff/InvCoContrvariance/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/TheoryStaff/InvCoContrvariance/Examples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/TheoryStaff/InvCoContrvariance/Examples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/TheoryStaff/PECS/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/TheoryStaff/PECS/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/TheoryStaff/PECS/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/TheoryStaff/PECS/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/TheoryStaff/PECS/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/TheoryStaff/PECS/Manager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/TheoryStaff/PECS/Slave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/TheoryStaff/PECS/Slave.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/task01/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/task01/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/task02/TypedStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/task02/TypedStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/task06/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/task06/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3/Theory3/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part3/Theory3/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/task12/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/task12/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/Theory3/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part3/Theory3/Animal.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +47,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -86,26 +83,13 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
-    <configuration name="Examples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part6.TheoryStaff.InvCoContrvariance.Examples" />
+  <component name="RunManager" selected="Application.Main (2)">
+    <configuration name="DestroyGenerics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part6.Extras.GenericArraysCreation.GenericsDestruction.DestroyGenerics" />
       <module name="FirstProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.mephi.java.part6.TheoryStaff.InvCoContrvariance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part6.TheoryStaff.Other.Main" />
-      <module name="FirstProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.mephi.java.part6.TheoryStaff.Other.*" />
+          <option name="PATTERN" value="ru.mephi.java.part6.Extras.GenericArraysCreation.GenericsDestruction.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,25 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part6.task08.Main" />
-      <module name="FirstProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.mephi.java.part6.task08.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part6.TheoryStaff.PECS.Main" />
+      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part6.Extras.GenericArraysCreation.UnsafeSignature.Main" />
       <module name="FirstProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.mephi.java.part6.TheoryStaff.PECS.*" />
+          <option name="PATTERN" value="ru.mephi.java.part6.Extras.GenericArraysCreation.UnsafeSignature.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,26 +149,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration name="SomeMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part6.Extras.GenericArraysCreation.СoContrVariance.SomeMethod" />
+      <module name="FirstProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.mephi.java.part6.Extras.GenericArraysCreation.СoContrVariance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Examples" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.SomeMethod" />
+        <item itemvalue="Application.DestroyGenerics" />
+        <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +229,9 @@
       <workItem from="1604143649652" duration="55000" />
       <workItem from="1604143738658" duration="1530000" />
       <workItem from="1604390785356" duration="15271000" />
-      <workItem from="1604477501951" duration="5478000" />
+      <workItem from="1604477501951" duration="9679000" />
+      <workItem from="1604515157935" duration="883000" />
+      <workItem from="1605265890742" duration="11803000" />
     </task>
     <task id="LOCAL-00001" summary="First 3 tasks from part 5">
       <created>1599380987318</created>
@@ -410,7 +394,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604433673605</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Add extra tasks">
+      <created>1604484592423</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1604484592423</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -452,49 +443,50 @@
     <MESSAGE value="Task 22, 24 DONE" />
     <MESSAGE value="Add some theory tasks examples" />
     <MESSAGE value="Minor fixes (delete TODO's, add theory staff)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Minor fixes (delete TODO's, add theory staff)" />
+    <MESSAGE value="Add extra tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add extra tasks" />
   </component>
   <component name="WindowStateProjectService">
     <state x="121" y="0" key="#Project_Structure" timestamp="1599243508700">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1599243508700" />
-    <state x="661" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1604478587055">
+    <state x="661" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1605282300571">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="661" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1604478587055" />
+    <state x="661" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1605282300571" />
     <state x="280" y="265" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1604479320484">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="280" y="265" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.680@0.0.1280.680" timestamp="1604479320484" />
-    <state x="405" y="209" width="471" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1599845614975">
+    <state x="405" y="209" width="592" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1605279179623">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="405" y="209" width="471" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1599845614975" />
+    <state x="405" y="209" width="592" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1605279179623" />
     <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599389395510">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1599389395510" />
-    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1602508317023">
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1604516040775">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1602508317023" />
-    <state width="1237" height="129" key="GridCell.Tab.0.bottom" timestamp="1604484003438">
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1604516040775" />
+    <state width="1237" height="129" key="GridCell.Tab.0.bottom" timestamp="1605286898454">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="129" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1604484003438" />
-    <state width="1237" height="129" key="GridCell.Tab.0.center" timestamp="1604484003438">
+    <state width="1237" height="129" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605286898454" />
+    <state width="1237" height="129" key="GridCell.Tab.0.center" timestamp="1605286898453">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="129" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1604484003438" />
-    <state width="1237" height="129" key="GridCell.Tab.0.left" timestamp="1604484003438">
+    <state width="1237" height="129" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1605286898453" />
+    <state width="1237" height="129" key="GridCell.Tab.0.left" timestamp="1605286898453">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="129" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1604484003438" />
-    <state width="1237" height="129" key="GridCell.Tab.0.right" timestamp="1604484003438">
+    <state width="1237" height="129" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1605286898453" />
+    <state width="1237" height="129" key="GridCell.Tab.0.right" timestamp="1605286898454">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="129" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1604484003438" />
+    <state width="1237" height="129" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1605286898454" />
     <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1599246252760">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -503,10 +495,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1603528197628" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1604433675443">
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1604484595849">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1604433675443" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1604484595849" />
     <state x="371" y="101" key="extract.method.dialog" timestamp="1601021737033">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -515,10 +507,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="347" y="73" width="587" height="534" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1599382425514" />
-    <state width="727" height="500" key="javadoc.popup.new" timestamp="1604483458149">
+    <state width="727" height="500" key="javadoc.popup.new" timestamp="1605281139804">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="727" height="500" key="javadoc.popup.new/0.0.1280.680@0.0.1280.680" timestamp="1604483458149" />
+    <state width="727" height="500" key="javadoc.popup.new/0.0.1280.680@0.0.1280.680" timestamp="1605281139804" />
     <state x="232" y="1" key="new project wizard" timestamp="1599498419525">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -586,6 +578,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/СoContrVariance/SomeMethod.java</url>
+          <line>6</line>
+          <properties class="ru.mephi.java.part6.Extras.GenericArraysCreation.СoContrVariance.SomeMethod" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="59" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

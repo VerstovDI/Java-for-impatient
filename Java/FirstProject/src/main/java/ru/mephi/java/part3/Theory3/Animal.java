@@ -1,10 +1,14 @@
 package ru.mephi.java.part3.Theory3;
 
 public class Animal implements IChangeSpecies{
-    String species;
+    public String species;
 
     public Animal() {
         this.species="animal";
+    }
+
+    public Animal(String species) {
+        this.species = species;
     }
 
 
