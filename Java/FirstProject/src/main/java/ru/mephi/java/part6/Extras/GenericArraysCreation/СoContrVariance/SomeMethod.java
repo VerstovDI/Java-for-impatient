@@ -34,7 +34,7 @@ public class SomeMethod {
         managers.add(manager1);
         managers.add(manager2);
         System.out.println(salaryExpenditure(managers));
-        // System.out.println(salaryExpenditure2(managers)); а вот тут так нельзя уже!
+        //System.out.println(salaryExpenditure2(managers)); //а вот тут так нельзя уже!
 
         // Contravariance
         List<Manager> managerList = new ArrayList<>();

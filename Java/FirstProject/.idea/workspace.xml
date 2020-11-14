@@ -22,10 +22,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="147829bf-43cf-4675-bd5e-c8a6fdda5691" name="Default Changelist" comment="Break generics + why Covariance + minMax + unsafe signature">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/TArray/Main.java" afterDir="false" />
+    <list default="true" id="147829bf-43cf-4675-bd5e-c8a6fdda5691" name="Default Changelist" comment="Add contravariance example + second way to create typed array (fixed)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/ClassClass/Something.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/GenericArraySupplier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/TArray/GenericArraySupplier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/ClassClass/Examples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/ClassClass/Examples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/GenericsDestruction/DestroyGenerics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/GenericsDestruction/DestroyGenerics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/TArray/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/TArray/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/UnsafeSignature/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/UnsafeSignature/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/СoContrVariance/SomeMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/СoContrVariance/SomeMethod.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +77,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Application.SomeMethod">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="DestroyGenerics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part6.Extras.GenericArraysCreation.GenericsDestruction.DestroyGenerics" />
       <module name="FirstProject" />
@@ -88,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part6.Extras.GenericArraysCreation.TArray.Main" />
+    <configuration name="Examples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part6.Extras.GenericArraysCreation.ClassClass.Examples" />
       <module name="FirstProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.mephi.java.part6.Extras.GenericArraysCreation.TArray.*" />
+          <option name="PATTERN" value="ru.mephi.java.part6.Extras.GenericArraysCreation.ClassClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part6.task12.Main" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part6.Extras.GenericArraysCreation.TArray.Main" />
       <module name="FirstProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.mephi.java.part6.task12.*" />
+          <option name="PATTERN" value="ru.mephi.java.part6.Extras.GenericArraysCreation.TArray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,24 +156,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SomeMethod" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.DestroyGenerics" />
+        <item itemvalue="Application.Examples" />
+        <item itemvalue="Application.SomeMethod" />
+        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +227,8 @@
       <workItem from="1604390785356" duration="15271000" />
       <workItem from="1604477501951" duration="9679000" />
       <workItem from="1604515157935" duration="883000" />
-      <workItem from="1605265890742" duration="16686000" />
+      <workItem from="1605265890742" duration="18790000" />
+      <workItem from="1605334249332" duration="3979000" />
     </task>
     <task id="LOCAL-00001" summary="First 3 tasks from part 5">
       <created>1599380987318</created>
@@ -399,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605287302283</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Add contravariance example + second way to create typed array (fixed)">
+      <created>1605292165128</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1605292165128</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -418,7 +431,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="First 3 tasks from part 5" />
     <MESSAGE value="First 3 tasks from part 5 updated" />
     <MESSAGE value="Added tasks 4 and 5" />
     <MESSAGE value="Fix task05 from part 5" />
@@ -443,7 +455,8 @@
     <MESSAGE value="Minor fixes (delete TODO's, add theory staff)" />
     <MESSAGE value="Add extra tasks" />
     <MESSAGE value="Break generics + why Covariance + minMax + unsafe signature" />
-    <option name="LAST_COMMIT_MESSAGE" value="Break generics + why Covariance + minMax + unsafe signature" />
+    <MESSAGE value="Add contravariance example + second way to create typed array (fixed)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add contravariance example + second way to create typed array (fixed)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="121" y="0" key="#Project_Structure" timestamp="1599243508700">
@@ -470,22 +483,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1604516040775" />
-    <state width="1237" height="129" key="GridCell.Tab.0.bottom" timestamp="1605291882465">
+    <state width="1237" height="129" key="GridCell.Tab.0.bottom" timestamp="1605338609315">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="129" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605291882465" />
-    <state width="1237" height="129" key="GridCell.Tab.0.center" timestamp="1605291882465">
+    <state width="1237" height="129" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605338609315" />
+    <state width="1237" height="129" key="GridCell.Tab.0.center" timestamp="1605338609315">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="129" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1605291882465" />
-    <state width="1237" height="129" key="GridCell.Tab.0.left" timestamp="1605291882465">
+    <state width="1237" height="129" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1605338609315" />
+    <state width="1237" height="129" key="GridCell.Tab.0.left" timestamp="1605338609315">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="129" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1605291882465" />
-    <state width="1237" height="129" key="GridCell.Tab.0.right" timestamp="1605291882465">
+    <state width="1237" height="129" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1605338609315" />
+    <state width="1237" height="129" key="GridCell.Tab.0.right" timestamp="1605338609315">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="129" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1605291882465" />
+    <state width="1237" height="129" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1605338609315" />
     <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1599246252760">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -506,10 +519,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="347" y="73" width="587" height="534" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1599382425514" />
-    <state width="727" height="500" key="javadoc.popup.new" timestamp="1605291414691">
+    <state width="727" height="500" key="javadoc.popup.new" timestamp="1605337996769">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="727" height="500" key="javadoc.popup.new/0.0.1280.680@0.0.1280.680" timestamp="1605291414691" />
+    <state width="727" height="500" key="javadoc.popup.new/0.0.1280.680@0.0.1280.680" timestamp="1605337996769" />
     <state x="232" y="1" key="new project wizard" timestamp="1599498419525">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

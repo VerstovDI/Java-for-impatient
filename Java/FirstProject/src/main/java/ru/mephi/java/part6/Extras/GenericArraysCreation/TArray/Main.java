@@ -10,7 +10,6 @@ public class Main<K> {
     public static void main(String[] args) {
     }
 
-    @SuppressWarnings("unchecked")
     public Main(Class<K> clazz, int sz) {
         // Way #1
         someTypedArr = getGenericArray1(clazz, sz);
@@ -18,6 +17,8 @@ public class Main<K> {
         // Way #2
         GenericArraySupplier<K> genericArraySupplier
                 = length -> (K[]) new Object[length];
+        // TODO: метод принимает объект String str, возвращает массив нужной длинны, в котором
+        // в каждом элементе кот. передам
         someTypedArr = genericArraySupplier.get(sz);
     }
 
