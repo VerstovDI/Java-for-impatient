@@ -1,8 +1,9 @@
 package ru.mephi.java.part6.Extras.GenericArraysCreation.СoContrVariance;
 
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.List;
+import java.io.Serializable;
+import java.util.*;
+import java.util.function.ToDoubleFunction;
+import java.util.function.ToIntFunction;
 
 public class SomeMethod {
     public static void main(String[] args) {
@@ -14,7 +15,7 @@ public class SomeMethod {
                 5000,
                 new String[]{"Petrov", "Sidorov"});
         Employee employee1 = new Employee("Aidar", 20, "IT", 3500);
-        Employee employee2 =  new Employee("Kopenko", 22, "SALES", 3300);
+        Employee employee2 = new Employee("Kopenko", 22, "SALES", 3300);
 
         ArrayList<Employee> allStaff = new ArrayList<>();
         allStaff.add(manager1);
@@ -37,19 +38,18 @@ public class SomeMethod {
         //System.out.println(salaryExpenditure2(managers)); //а вот тут так нельзя уже!
 
         // Contravariance
-        List<Manager> managerList = new ArrayList<>();
-        managerList.add(manager1);
-        managerList.add(manager2);
-        Comparator<Manager> comparator1 = Comparator.comparingInt(Employee::getAge);
-        managerList.sort(comparator1);
+        Comparator<Employee> comparator = (o1, o2) -> o1.getAge() - o2.getAge();
 
-        List<Employee> employeeList = new ArrayList<>();
-        employeeList.add(employee1);
-        employeeList.add(employee2);
-        employeeList.add(manager1);
-        // Можем сравнивать и manager с manager, и manager с employee, и ...
-        Comparator<Employee> comparator2 = Comparator.comparingInt(Employee::getAge);
-        employeeList.sort(comparator2);
+        allStaff.sort(comparator);
+        managers.sort(comparator);
+
+        MyArrayList<Employee> myArrayList = new MyArrayList<>(allStaff);
+        myArrayList.mySort(comparator);
+        MyArrayList<Manager> myManagers = new MyArrayList<>(managers);
+        // myManagers.mySort(comparator); // вот тут так бы было бы уже нельзя!
+
+
+
     }
 
     public static double salaryExpenditure(List<? extends Employee> employees) {
