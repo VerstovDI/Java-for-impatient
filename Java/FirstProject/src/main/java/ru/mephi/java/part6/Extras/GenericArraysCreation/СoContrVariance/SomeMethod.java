@@ -39,15 +39,16 @@ public class SomeMethod {
 
         // Contravariance
         Comparator<Employee> comparator = (o1, o2) -> o1.getAge() - o2.getAge();
-
+        Comparator<Manager> comparator1 = (m1, m2) -> m1.getGrant() - m2.getGrant();
         allStaff.sort(comparator);
+        //allStaff.sort(comparator1);
         managers.sort(comparator);
 
         MyArrayList<Employee> myArrayList = new MyArrayList<>(allStaff);
         myArrayList.mySort(comparator);
         MyArrayList<Manager> myManagers = new MyArrayList<>(managers);
-        // myManagers.mySort(comparator); // вот тут так бы было бы уже нельзя!
-
+        //myManagers.mySort(comparator); // вот тут так бы было бы уже нельзя!
+        // TODO: почему ? extends .. - нельзя вызывать consumer методы и наоборот про ? super
 
 
     }

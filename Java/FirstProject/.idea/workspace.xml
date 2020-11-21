@@ -22,9 +22,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="147829bf-43cf-4675-bd5e-c8a6fdda5691" name="Default Changelist" comment="Add generics examples + fix second way of creating generic array (typesafe)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/СoContrVariance/MyArrayList.java" afterDir="false" />
+    <list default="true" id="147829bf-43cf-4675-bd5e-c8a6fdda5691" name="Default Changelist" comment="Fix contravariance example">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/TArray/ArgumentsSupplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/Why_PECS_not_CEPS/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/TArray/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/TArray/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/СoContrVariance/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/СoContrVariance/Manager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/СoContrVariance/SomeMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/СoContrVariance/SomeMethod.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,10 +39,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Interface" />
         <option value="package-info" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -78,7 +81,7 @@
       <recent name="ru.mephi.java.part6.Extras.GenericArraysCreation.TArray" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SomeMethod">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="DestroyGenerics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part6.Extras.GenericArraysCreation.GenericsDestruction.DestroyGenerics" />
       <module name="FirstProject" />
@@ -157,21 +160,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SomeMethod" />
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.SomeMethod" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.DestroyGenerics" />
         <item itemvalue="Application.Examples" />
@@ -228,7 +233,8 @@
       <workItem from="1604515157935" duration="883000" />
       <workItem from="1605265890742" duration="18790000" />
       <workItem from="1605334249332" duration="4676000" />
-      <workItem from="1605866184811" duration="23653000" />
+      <workItem from="1605866184811" duration="23695000" />
+      <workItem from="1605939109150" duration="9750000" />
     </task>
     <task id="LOCAL-00001" summary="First 3 tasks from part 5">
       <created>1599380987318</created>
@@ -426,7 +432,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605893119560</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Fix contravariance example">
+      <created>1605895778861</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1605895778861</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -445,7 +458,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fix task05 from part 5" />
     <MESSAGE value="Added task06.txt" />
     <MESSAGE value="Added task07" />
     <MESSAGE value="Added tasks 11-12" />
@@ -470,7 +482,8 @@
     <MESSAGE value="Add contravariance example + second way to create typed array (fixed)" />
     <MESSAGE value="Left: contravariance (why without don't work, ex.), slide Class, second way to create an Array" />
     <MESSAGE value="Add generics examples + fix second way of creating generic array (typesafe)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add generics examples + fix second way of creating generic array (typesafe)" />
+    <MESSAGE value="Fix contravariance example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix contravariance example" />
   </component>
   <component name="WindowStateProjectService">
     <state x="393" y="164" key="#Notifications" timestamp="1605868378045">
@@ -481,10 +494,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1599243508700" />
-    <state x="661" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1605894988640">
+    <state x="661" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1605945354024">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="661" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1605894988640" />
+    <state x="661" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1605945354024" />
     <state x="368" y="116" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1605874845747">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -505,22 +518,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1605340954706" />
-    <state width="1237" height="169" key="GridCell.Tab.0.bottom" timestamp="1605895631270">
+    <state width="1237" height="127" key="GridCell.Tab.0.bottom" timestamp="1605948217452">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="169" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605895631270" />
-    <state width="1237" height="169" key="GridCell.Tab.0.center" timestamp="1605895631270">
+    <state width="1237" height="127" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605948217452" />
+    <state width="1237" height="127" key="GridCell.Tab.0.center" timestamp="1605948217452">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="169" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1605895631270" />
-    <state width="1237" height="169" key="GridCell.Tab.0.left" timestamp="1605895631270">
+    <state width="1237" height="127" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1605948217452" />
+    <state width="1237" height="127" key="GridCell.Tab.0.left" timestamp="1605948217452">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="169" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1605895631270" />
-    <state width="1237" height="169" key="GridCell.Tab.0.right" timestamp="1605895631270">
+    <state width="1237" height="127" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1605948217452" />
+    <state width="1237" height="127" key="GridCell.Tab.0.right" timestamp="1605948217452">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="169" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1605895631270" />
+    <state width="1237" height="127" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1605948217452" />
     <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1599246252760">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -529,22 +542,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1603528197628" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1605893122109">
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1605895781911">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1605893122109" />
-    <state x="371" y="101" key="extract.method.dialog" timestamp="1601021737033">
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1605895781911" />
+    <state x="371" y="101" key="extract.method.dialog" timestamp="1605946497580">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="371" y="101" key="extract.method.dialog/0.0.1280.680@0.0.1280.680" timestamp="1601021737033" />
+    <state x="371" y="101" key="extract.method.dialog/0.0.1280.680@0.0.1280.680" timestamp="1605946497580" />
     <state x="347" y="73" width="587" height="534" key="find.popup" timestamp="1599382425514">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="347" y="73" width="587" height="534" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1599382425514" />
-    <state width="727" height="500" key="javadoc.popup.new" timestamp="1605895676884">
+    <state width="727" height="500" key="javadoc.popup.new" timestamp="1605948805425">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="727" height="500" key="javadoc.popup.new/0.0.1280.680@0.0.1280.680" timestamp="1605895676884" />
+    <state width="727" height="500" key="javadoc.popup.new/0.0.1280.680@0.0.1280.680" timestamp="1605948805425" />
     <state x="232" y="1" key="new project wizard" timestamp="1605340929985">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -557,10 +570,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1604405642395" />
-    <state x="415" y="147" width="672" height="444" key="search.everywhere.popup" timestamp="1605891274977">
+    <state x="415" y="147" width="672" height="444" key="search.everywhere.popup" timestamp="1605946747242">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="415" y="147" width="672" height="444" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1605891274977" />
+    <state x="415" y="147" width="672" height="444" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1605946747242" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

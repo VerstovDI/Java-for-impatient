@@ -53,48 +53,29 @@ public class Main {
         // Строка 4
         Employee newEmp = new Employee("Henry", 49, "OFFICE", 1000);
         System.out.println(newEmp);
-        Function<Class<Employee>, Employee> f = employeeClass -> {
-            Constructor<Employee> constr = null;
-            try {
-                constr = employeeClass
-                        .getConstructor(String.class, int.class, String.class, double.class);
-            } catch (NoSuchMethodException e) {
-                e.printStackTrace();
-            }
-            Random rnd = new Random();
-            try {
-                assert constr != null;
-                return constr.newInstance(UUID.randomUUID().toString(),
-                        18 + rnd.nextInt(40),
-                        UUID.randomUUID().toString(),
-                        12000 + 50000*rnd.nextDouble());
-            } catch (InstantiationException | InvocationTargetException | IllegalAccessException e) {
-                e.printStackTrace();
-            }
-            return null;
-        };
-        Employee newNewEmp = f.apply(Employee.class);
+
+        ArgumentsSupplier<Employee> argumentsSupplier = Employee::new;
+        Employee newNewEmp = randomEmployee1(argumentsSupplier);
         System.out.println(newNewEmp);
         Random rnd2 = new Random();
-        Employee theEmp = Employee.class
-                .getConstructor(String.class, int.class, String.class, double.class)
-                .newInstance(UUID.randomUUID().toString(),
-                        18 + rnd2.nextInt(40),
-                        UUID.randomUUID().toString(),
-                        12000 + 50000*rnd2.nextDouble());
+        Employee theEmp = randomEmployee2(Employee.class
+                .getConstructor(String.class, int.class, String.class, double.class));
         System.out.println(theEmp);
 
         // Строка 5
         Size[] sizes1 = Size.values();
         Size[] sizes2 = getTypedArrayFromEnum1(Size.class);
-        Function<Class<Size>, Size[]> classSizeFunction = Class::getEnumConstants;
-        Size[] sizes3 = getTypedArrayFromEnum2(Size.class, classSizeFunction);
+        //Function<Class<Size>, Size[]> classSizeFunction = Class::getEnumConstants;
+        //Size[] sizes3 = getTypedArrayFromEnum2(Size.class, classSizeFunction);
+        Supplier<Size[]> supplier = Size::values;
+        Size[] sizes3 = getTypedArrayFromEnum2(supplier);
         System.out.println(Arrays.toString(sizes1) + "\n" +
                 Arrays.toString(sizes2) + "\n" +
                 Arrays.toString(sizes3) + "\n");
-        // + есть 2 примера на создание generic-массивов, приведенные ранее
+        //
 
-        // Более развернутый ответ по примеру на контравариантность
+        // Более наглядный ответ по примеру на контравариантность
+        // см. package CoContr..
     }
 
     // ---- Второй способ создания generic-массива ----
@@ -135,7 +116,7 @@ public class Main {
         return null;
     }
 
-    public static <T, K> Class<? extends T> someAPIMethodLambda(BiPredicate<Class<K>, Class<T>> tBiPredicate,
+    public static <T, K> Class<? extends T>someAPIMethodLambda(BiPredicate<Class<K>, Class<T>> tBiPredicate,
                                                                 Class<K> kClass,
                                                                 Class<T> tClass) {
         if (tBiPredicate.test(kClass, tClass)) {
@@ -159,9 +140,24 @@ public class Main {
         return tClass.getEnumConstants();
     }
 
-    public static <T extends Enum<T>> T[] getTypedArrayFromEnum2(Class<T> cl,
-                                                                 Function<Class<T>, T[]> func) {
-        return func.apply(cl);
+    public static <T extends Enum<T>> T[] getTypedArrayFromEnum2(Supplier<T[]> func) {
+        return func.get();  // TODO: без рефлексии
     }
 
+    public static <T> T randomEmployee1(ArgumentsSupplier<T> argumentsSupplier) {
+        Random rnd2 = new Random();
+        return argumentsSupplier.get(UUID.randomUUID().toString(),
+                18 + rnd2.nextInt(40),
+                        UUID.randomUUID().toString(),
+                        12000 + 50000*rnd2.nextDouble());
+    }
+
+    public static <T> T randomEmployee2(Constructor<T> constructor)
+            throws IllegalAccessException, InvocationTargetException, InstantiationException {
+        Random rnd3 = new Random();
+        return constructor.newInstance(UUID.randomUUID().toString(),
+                18 + rnd3.nextInt(40),
+                UUID.randomUUID().toString(),
+                12000 + 50000*rnd3.nextDouble());
+    }
 }
