@@ -17,10 +17,4 @@ public class SomethingHolder<E> {
         this.something = something;
     }
 
-    @Override
-    public String toString() {
-        return "SomethingHolder{" +
-                "something=" + something +
-                '}';
-    }
 }

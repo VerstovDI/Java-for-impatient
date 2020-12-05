@@ -16,10 +16,12 @@ public class Main {
         System.out.println(arr2.getClass());
     }
 
+    // 1
     private static <T> T[] newArray1(Class<T> type, int len) {
         return (T[]) Array.newInstance(type, len);
     }
 
+    // 2
     private static <T> T[] newArray2(Class<?> type, int len) {
         return (T[]) Array.newInstance(type, len);
     }

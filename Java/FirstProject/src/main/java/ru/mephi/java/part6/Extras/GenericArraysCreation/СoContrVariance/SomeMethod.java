@@ -34,23 +34,28 @@ public class SomeMethod {
         ArrayList<Manager> managers = new ArrayList<>();
         managers.add(manager1);
         managers.add(manager2);
+
         System.out.println(salaryExpenditure(managers));
-        //System.out.println(salaryExpenditure2(managers)); //а вот тут так нельзя уже!
+        //System.out.println(salaryExpenditure2(managers)); //  а вот тут так нельзя уже!
 
         // Contravariance
+        /*
         Comparator<Employee> comparator = (o1, o2) -> o1.getAge() - o2.getAge();
         Comparator<Manager> comparator1 = (m1, m2) -> m1.getGrant() - m2.getGrant();
         allStaff.sort(comparator);
-        //allStaff.sort(comparator1);
-        managers.sort(comparator);
+        //allStaff.sort(comparator1); // увы!
+        managers.sort(comparator); // для*/
 
+        // Если бы аргумент метода sort был бы контрвариантен, то:
+        Comparator<Employee> comparator = (o1, o2) -> o1.getAge() - o2.getAge();
+        allStaff.sort(comparator);
+        managers.sort(comparator); // достаточно одного компаратора!
+
+        // Иначе:
         MyArrayList<Employee> myArrayList = new MyArrayList<>(allStaff);
-        myArrayList.mySort(comparator);
         MyArrayList<Manager> myManagers = new MyArrayList<>(managers);
+        myArrayList.mySort(comparator);
         //myManagers.mySort(comparator); // вот тут так бы было бы уже нельзя!
-        // TODO: почему ? extends .. - нельзя вызывать consumer методы и наоборот про ? super
-
-
     }
 
     public static double salaryExpenditure(List<? extends Employee> employees) {

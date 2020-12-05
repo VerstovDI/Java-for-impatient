@@ -6,12 +6,11 @@ import ru.mephi.java.part6.task07.Pair;
 public class DestroyGenerics<T> {
     public static void main(String[] args) {
         SomethingHolder<Integer> integerHolder;
-
         SomethingHolder<Person> personHolder;
-        personHolder = new SomethingHolder<Person>(new Person("Da.", 20, true));
 
+        personHolder = new SomethingHolder<>(new Person("Oleg", 20, true));
         integerHolder = (SomethingHolder) personHolder;
-        System.out.println(integerHolder.getSomething());
+
         int x = integerHolder.getSomething() + 6;
     }
 }

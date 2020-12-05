@@ -1,6 +1,6 @@
 package ru.mephi.java.part6.Extras.GenericArraysCreation.СoContrVariance;
 
-public class Employee {
+public class Employee extends Object {
     private String name;
     private int age;
     private String department;

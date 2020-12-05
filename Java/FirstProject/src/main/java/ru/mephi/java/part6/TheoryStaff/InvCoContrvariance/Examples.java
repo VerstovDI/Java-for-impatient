@@ -1,5 +1,8 @@
 package ru.mephi.java.part6.TheoryStaff.InvCoContrvariance;
 
+import ru.mephi.java.part6.Extras.GenericArraysCreation.СoContrVariance.Employee;
+import ru.mephi.java.part6.Extras.GenericArraysCreation.СoContrVariance.Manager;
+
 import java.util.ArrayList;
 
 public class Examples {
@@ -37,14 +40,18 @@ public class Examples {
                 То есть нельзя безопасно привести ни от List<Integer> к List<Number>,
         и ни от List<Number> к List<Integer>*/
         // Ex
+
         ArrayList<Integer> intArrList = new ArrayList<>();
-        //ArrayList<Number> numArrList = intArrList; // Not ok
+        // ArrayList<Number> numArrList = intArrList; // Not ok
         ArrayList<Integer> anotherIntArrList = intArrList; // Ok
-        /*
-        А если было бы можно? Получали бы ситуации такого рода: (Employee extends Manager)
+
+
+        //А если было бы можно? Получали бы ситуации такого рода:
+
+        // (Employee extends Manager)
         ArrayList<Manager> bosses = new ArrayList();
-        ArrayList<Employee> empls = bosses; // Нельзя, но допустим, что можно ...
-        empls.add(new Employee(...)); // Простой сотрудник среди начальства!
-        */
+        // ArrayList<Employee> empls = bosses; // Нельзя, но допустим, что можно ...
+        // empls.add(new Employee(...)); // Простой сотрудник среди начальства!
+
     }
 }

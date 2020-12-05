@@ -12,19 +12,21 @@ public class Main {
         // Компилятор на этапе компиляции не знает, какой тип будет возвращен и просит его указать.
 
         // Но.
+
         List listUntilJava5 = new ArrayList();
         listUntilJava5.add(2020);
         listUntilJava5.add("Some string"); // !!!
         for (Object str : listUntilJava5) {
-            System.out.println((String)str); // !!
+            System.out.println(str); // !!
         }
+
         // Компилятор до Java 5 не увидит ничего плохо -> получим ошибку во время выполнения (runtime)
         // ClassCastException -> не могу прикастовать Integer к String
 
         // Начиная с Java 1.5:
         List<String> listAfterJava5 = new ArrayList<>();
         listAfterJava5.add("Hello!");
-        // listAfterJava5.add(123); Компилятор предостерегает программиста от ошибки в runtime
+        //listAfterJava5.add(123); // Компилятор предостерегает программиста от ошибки в runtime
         // и говорит, что не получится добавить Integer в лист, т.к. он типизирован String
         // - Безопасно, т.к. теперь явно понятно, что класс, типизированный дженериком,
         // хранит элементы одного конкретного типа (Type safety)

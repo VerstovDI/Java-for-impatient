@@ -22,13 +22,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="147829bf-43cf-4675-bd5e-c8a6fdda5691" name="Default Changelist" comment="Fix contravariance example">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/TArray/ArgumentsSupplier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/Why_PECS_not_CEPS/Main.java" afterDir="false" />
+    <list default="true" id="147829bf-43cf-4675-bd5e-c8a6fdda5691" name="Default Changelist" comment="Extra task fixed. 1 example left">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/TheoryStaff/Other/SomeClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/TArray/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/TArray/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/СoContrVariance/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/СoContrVariance/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/GenericsDestruction/DestroyGenerics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/GenericsDestruction/DestroyGenerics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/GenericsDestruction/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/GenericsDestruction/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/GenericsDestruction/SomethingHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/GenericsDestruction/SomethingHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/UnsafeSignature/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/UnsafeSignature/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/Why_PECS_not_CEPS/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/Why_PECS_not_CEPS/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/СoContrVariance/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/СoContrVariance/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/СoContrVariance/SomeMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/СoContrVariance/SomeMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/TheoryStaff/GenericsGeneral/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/TheoryStaff/GenericsGeneral/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/TheoryStaff/InvCoContrvariance/Examples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/TheoryStaff/InvCoContrvariance/Examples.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +46,8 @@
         <option value="FxmlFile" />
         <option value="package-info" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -69,38 +74,26 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../(7-8) Trainee/sarafan-parent/sarafan" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ru.mephi.java.part6.Extras.GenericArraysCreation.TArray" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="DestroyGenerics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part6.Extras.GenericArraysCreation.GenericsDestruction.DestroyGenerics" />
       <module name="FirstProject" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.mephi.java.part6.Extras.GenericArraysCreation.GenericsDestruction.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Examples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part6.Extras.GenericArraysCreation.ClassClass.Examples" />
-      <module name="FirstProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.mephi.java.part6.Extras.GenericArraysCreation.ClassClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +114,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part6.Extras.GenericArraysCreation.UnsafeSignature.Main" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part6.Extras.GenericArraysCreation.Why_PECS_not_CEPS.Main" />
       <module name="FirstProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.mephi.java.part6.Extras.GenericArraysCreation.UnsafeSignature.*" />
+          <option name="PATTERN" value="ru.mephi.java.part6.Extras.GenericArraysCreation.Why_PECS_not_CEPS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part6.TheoryStaff.GenericsGeneral.Main" />
+      <module name="FirstProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.mephi.java.part6.TheoryStaff.GenericsGeneral.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,26 +166,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.DestroyGenerics" />
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.SomeMethod" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.DestroyGenerics" />
-        <item itemvalue="Application.Examples" />
       </list>
     </recent_temporary>
   </component>
@@ -234,7 +238,18 @@
       <workItem from="1605265890742" duration="18790000" />
       <workItem from="1605334249332" duration="4676000" />
       <workItem from="1605866184811" duration="23695000" />
-      <workItem from="1605939109150" duration="9750000" />
+      <workItem from="1605939109150" duration="9780000" />
+      <workItem from="1605958169778" duration="39000" />
+      <workItem from="1606486532062" duration="9050000" />
+      <workItem from="1606565734531" duration="71000" />
+      <workItem from="1606658261822" duration="7526000" />
+      <workItem from="1606763474704" duration="1192000" />
+      <workItem from="1606904005783" duration="626000" />
+      <workItem from="1606905999453" duration="1797000" />
+      <workItem from="1606923100007" duration="8427000" />
+      <workItem from="1607015352218" duration="131000" />
+      <workItem from="1607108716726" duration="1201000" />
+      <workItem from="1607148524601" duration="2008000" />
     </task>
     <task id="LOCAL-00001" summary="First 3 tasks from part 5">
       <created>1599380987318</created>
@@ -439,7 +454,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605895778861</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Extra task fixed. 1 example left">
+      <created>1605951676599</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1605951676599</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -458,7 +480,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added task06.txt" />
     <MESSAGE value="Added task07" />
     <MESSAGE value="Added tasks 11-12" />
     <MESSAGE value="Added tasks 8-9" />
@@ -483,7 +504,8 @@
     <MESSAGE value="Left: contravariance (why without don't work, ex.), slide Class, second way to create an Array" />
     <MESSAGE value="Add generics examples + fix second way of creating generic array (typesafe)" />
     <MESSAGE value="Fix contravariance example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix contravariance example" />
+    <MESSAGE value="Extra task fixed. 1 example left" />
+    <option name="LAST_COMMIT_MESSAGE" value="Extra task fixed. 1 example left" />
   </component>
   <component name="WindowStateProjectService">
     <state x="393" y="164" key="#Notifications" timestamp="1605868378045">
@@ -494,46 +516,58 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1599243508700" />
-    <state x="661" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1605945354024">
+    <state x="408" y="245" key="#Updates" timestamp="1607015430609">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="661" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1605945354024" />
+    <state x="408" y="245" key="#Updates/0.0.1280.680@0.0.1280.680" timestamp="1607015430609" />
+    <state x="661" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1606933902729">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="661" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1606933902729" />
     <state x="368" y="116" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1605874845747">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="368" y="116" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1605874845747" />
+    <state x="321" y="76" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1606904035037">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="321" y="76" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.680@0.0.1280.680" timestamp="1606904035037" />
     <state x="280" y="265" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1604479320484">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="280" y="265" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.680@0.0.1280.680" timestamp="1604479320484" />
-    <state x="405" y="209" width="592" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1605279179623">
+    <state x="405" y="209" width="592" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1606670689121">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="405" y="209" width="592" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1605279179623" />
+    <state x="405" y="209" width="592" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1606670689121" />
     <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599389395510">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1599389395510" />
-    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1605340954706">
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1607015481617">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1605340954706" />
-    <state width="1237" height="127" key="GridCell.Tab.0.bottom" timestamp="1605948217452">
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1607015481617" />
+    <state width="1237" height="140" key="GridCell.Tab.0.bottom" timestamp="1606938720047">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="127" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605948217452" />
-    <state width="1237" height="127" key="GridCell.Tab.0.center" timestamp="1605948217452">
+    <state width="1237" height="140" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1606938720047" />
+    <state width="1237" height="140" key="GridCell.Tab.0.center" timestamp="1606938720047">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="127" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1605948217452" />
-    <state width="1237" height="127" key="GridCell.Tab.0.left" timestamp="1605948217452">
+    <state width="1237" height="140" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1606938720047" />
+    <state width="1237" height="140" key="GridCell.Tab.0.left" timestamp="1606938720047">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="127" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1605948217452" />
-    <state width="1237" height="127" key="GridCell.Tab.0.right" timestamp="1605948217452">
+    <state width="1237" height="140" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1606938720046" />
+    <state width="1237" height="140" key="GridCell.Tab.0.right" timestamp="1606938720047">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="127" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1605948217452" />
+    <state width="1237" height="140" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1606938720047" />
+    <state x="221" y="83" key="IDE.errors.dialog" timestamp="1606490171098">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="221" y="83" key="IDE.errors.dialog/0.0.1280.680@0.0.1280.680" timestamp="1606490171098" />
     <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1599246252760">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -542,10 +576,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1603528197628" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1605895781911">
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1605951678708">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1605895781911" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1605951678708" />
     <state x="371" y="101" key="extract.method.dialog" timestamp="1605946497580">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -554,10 +588,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="347" y="73" width="587" height="534" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1599382425514" />
-    <state width="727" height="500" key="javadoc.popup.new" timestamp="1605948805425">
+    <state width="727" height="500" key="javadoc.popup.new" timestamp="1606934470373">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="727" height="500" key="javadoc.popup.new/0.0.1280.680@0.0.1280.680" timestamp="1605948805425" />
+    <state width="727" height="500" key="javadoc.popup.new/0.0.1280.680@0.0.1280.680" timestamp="1606934470373" />
     <state x="232" y="1" key="new project wizard" timestamp="1605340929985">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
