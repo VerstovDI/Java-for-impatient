@@ -22,18 +22,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="147829bf-43cf-4675-bd5e-c8a6fdda5691" name="Default Changelist" comment="Extra task fixed. 1 example left">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/TheoryStaff/Other/SomeClass.java" afterDir="false" />
+    <list default="true" id="147829bf-43cf-4675-bd5e-c8a6fdda5691" name="Default Changelist" comment="Generics DONE">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task01/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task01/SieveOfErathostenes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task02/Task2UppercaseStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task03/OperationType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task03/SetStaff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task04/ConcurModExcpEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task05/SwapMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task06/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task18/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/GenericsDestruction/DestroyGenerics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/GenericsDestruction/DestroyGenerics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/GenericsDestruction/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/GenericsDestruction/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/GenericsDestruction/SomethingHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/GenericsDestruction/SomethingHolder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/UnsafeSignature/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/UnsafeSignature/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/Why_PECS_not_CEPS/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/Why_PECS_not_CEPS/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/СoContrVariance/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/СoContrVariance/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/СoContrVariance/SomeMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/Extras/GenericArraysCreation/СoContrVariance/SomeMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/TheoryStaff/GenericsGeneral/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/TheoryStaff/GenericsGeneral/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/TheoryStaff/InvCoContrvariance/Examples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part6/TheoryStaff/InvCoContrvariance/Examples.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +44,8 @@
       <list>
         <option value="FxmlFile" />
         <option value="package-info" />
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -87,13 +86,13 @@
       <recent name="ru.mephi.java.part6.Extras.GenericArraysCreation.TArray" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
-    <configuration name="DestroyGenerics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part6.Extras.GenericArraysCreation.GenericsDestruction.DestroyGenerics" />
+  <component name="RunManager" selected="Application.SwapMethod">
+    <configuration name="ConcurModExcpEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part7.task04.ConcurModExcpEx" />
       <module name="FirstProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.mephi.java.part6.Extras.GenericArraysCreation.GenericsDestruction.*" />
+          <option name="PATTERN" value="ru.mephi.java.part7.task04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part6.Extras.GenericArraysCreation.TArray.Main" />
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part7.task01.Main" />
       <module name="FirstProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.mephi.java.part6.Extras.GenericArraysCreation.TArray.*" />
+          <option name="PATTERN" value="ru.mephi.java.part7.task01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part6.Extras.GenericArraysCreation.Why_PECS_not_CEPS.Main" />
+    <configuration name="SetStaff" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part7.task03.SetStaff" />
       <module name="FirstProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.mephi.java.part6.Extras.GenericArraysCreation.Why_PECS_not_CEPS.*" />
+          <option name="PATTERN" value="ru.mephi.java.part7.task03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part6.TheoryStaff.GenericsGeneral.Main" />
+    <configuration name="SwapMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part7.task05.SwapMethod" />
       <module name="FirstProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.mephi.java.part6.TheoryStaff.GenericsGeneral.*" />
+          <option name="PATTERN" value="ru.mephi.java.part7.task05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,25 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part6.TheoryStaff.GenericsGeneral.Main" />
+    <configuration name="Task2UppercaseStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part7.task02.Task2UppercaseStrings" />
       <module name="FirstProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.mephi.java.part6.TheoryStaff.GenericsGeneral.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SomeMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part6.Extras.GenericArraysCreation.СoContrVariance.SomeMethod" />
-      <module name="FirstProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.mephi.java.part6.Extras.GenericArraysCreation.СoContrVariance.*" />
+          <option name="PATTERN" value="ru.mephi.java.part7.task02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.DestroyGenerics" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.SomeMethod" />
+        <item itemvalue="Application.SwapMethod" />
+        <item itemvalue="Application.ConcurModExcpEx" />
+        <item itemvalue="Application.SetStaff" />
+        <item itemvalue="Application.Task2UppercaseStrings" />
+        <item itemvalue="Application.Main (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -249,7 +235,9 @@
       <workItem from="1606923100007" duration="8427000" />
       <workItem from="1607015352218" duration="131000" />
       <workItem from="1607108716726" duration="1201000" />
-      <workItem from="1607148524601" duration="2008000" />
+      <workItem from="1607148524601" duration="3338000" />
+      <workItem from="1607418128385" duration="8155000" />
+      <workItem from="1607426840379" duration="10904000" />
     </task>
     <task id="LOCAL-00001" summary="First 3 tasks from part 5">
       <created>1599380987318</created>
@@ -461,7 +449,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605951676599</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Generics DONE">
+      <created>1607153265129</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1607153265129</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -480,7 +475,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added task07" />
     <MESSAGE value="Added tasks 11-12" />
     <MESSAGE value="Added tasks 8-9" />
     <MESSAGE value="Added task 10. Fix double's delimiter" />
@@ -505,7 +499,8 @@
     <MESSAGE value="Add generics examples + fix second way of creating generic array (typesafe)" />
     <MESSAGE value="Fix contravariance example" />
     <MESSAGE value="Extra task fixed. 1 example left" />
-    <option name="LAST_COMMIT_MESSAGE" value="Extra task fixed. 1 example left" />
+    <MESSAGE value="Generics DONE" />
+    <option name="LAST_COMMIT_MESSAGE" value="Generics DONE" />
   </component>
   <component name="WindowStateProjectService">
     <state x="393" y="164" key="#Notifications" timestamp="1605868378045">
@@ -528,14 +523,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="368" y="116" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1605874845747" />
-    <state x="321" y="76" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1606904035037">
+    <state x="321" y="76" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1607426267269">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="321" y="76" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.680@0.0.1280.680" timestamp="1606904035037" />
-    <state x="280" y="265" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1604479320484">
+    <state x="321" y="76" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.680@0.0.1280.680" timestamp="1607426267269" />
+    <state x="280" y="265" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1607444880307">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="280" y="265" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.680@0.0.1280.680" timestamp="1604479320484" />
+    <state x="280" y="265" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.680@0.0.1280.680" timestamp="1607444880307" />
     <state x="405" y="209" width="592" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1606670689121">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -548,22 +543,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1607015481617" />
-    <state width="1237" height="140" key="GridCell.Tab.0.bottom" timestamp="1606938720047">
+    <state width="928" height="200" key="GridCell.Tab.0.bottom" timestamp="1607451872386">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="140" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1606938720047" />
-    <state width="1237" height="140" key="GridCell.Tab.0.center" timestamp="1606938720047">
+    <state width="928" height="200" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1607451872386" />
+    <state width="928" height="200" key="GridCell.Tab.0.center" timestamp="1607451872385">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="140" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1606938720047" />
-    <state width="1237" height="140" key="GridCell.Tab.0.left" timestamp="1606938720047">
+    <state width="928" height="200" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1607451872385" />
+    <state width="928" height="200" key="GridCell.Tab.0.left" timestamp="1607451872385">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="140" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1606938720046" />
-    <state width="1237" height="140" key="GridCell.Tab.0.right" timestamp="1606938720047">
+    <state width="928" height="200" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1607451872385" />
+    <state width="928" height="200" key="GridCell.Tab.0.right" timestamp="1607451872386">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="140" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1606938720047" />
+    <state width="928" height="200" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1607451872386" />
     <state x="221" y="83" key="IDE.errors.dialog" timestamp="1606490171098">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -572,26 +567,30 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="171" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.680@0.0.1280.680" timestamp="1599246252760" />
+    <state x="456" y="274" key="ReplaceDuplicatesPrompt" timestamp="1607421826740">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="456" y="274" key="ReplaceDuplicatesPrompt/0.0.1280.680@0.0.1280.680" timestamp="1607421826740" />
     <state x="121" y="0" key="SettingsEditor" timestamp="1603528197628">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1603528197628" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1605951678708">
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1607153271344">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1605951678708" />
-    <state x="371" y="101" key="extract.method.dialog" timestamp="1605946497580">
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1607153271344" />
+    <state x="371" y="101" key="extract.method.dialog" timestamp="1607445916285">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="371" y="101" key="extract.method.dialog/0.0.1280.680@0.0.1280.680" timestamp="1605946497580" />
+    <state x="371" y="101" key="extract.method.dialog/0.0.1280.680@0.0.1280.680" timestamp="1607445916285" />
     <state x="347" y="73" width="587" height="534" key="find.popup" timestamp="1599382425514">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="347" y="73" width="587" height="534" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1599382425514" />
-    <state width="727" height="500" key="javadoc.popup.new" timestamp="1606934470373">
+    <state width="728" height="500" key="javadoc.popup.new" timestamp="1607450412782">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="727" height="500" key="javadoc.popup.new/0.0.1280.680@0.0.1280.680" timestamp="1606934470373" />
+    <state width="728" height="500" key="javadoc.popup.new/0.0.1280.680@0.0.1280.680" timestamp="1607450412782" />
     <state x="232" y="1" key="new project wizard" timestamp="1605340929985">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -652,6 +651,11 @@
           <line>30</line>
           <option name="timeStamp" value="56" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task04/ConcurModExcpEx.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/ru/mephi/java/part5/task05/Main.java</url>
           <line>11</line>
@@ -659,6 +663,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task01/SieveOfErathostenes.java</url>
+          <line>38</line>
+          <properties class="ru.mephi.java.part7.task01.SieveOfErathostenes" method="getPrimesBitSet">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="63" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
