@@ -13,9 +13,17 @@ public class Main {
         System.out.println(counters.entrySet());
 
         // a
-
+        updateMapA("Goodbye");
+        System.out.println(counters.entrySet());
         // b
+        updateMapB("Goodbye");
+        System.out.println(counters.entrySet());
         // c
+        updateMapC("Goodbye");
+        System.out.println(counters.entrySet());
+        // d
+        updateMapD("Goodbye");
+        System.out.println(counters.entrySet());
     }
 
     public static void updateMap(String word) {
@@ -24,25 +32,27 @@ public class Main {
 
     public static void updateMapA(String word) {
         if (counters.containsKey(word)) {
-            //counters.put(key, )
+            counters.compute(word,(s1, i) -> i = i + 1);
+        } else {
+            counters.put(word,1);
         }
     }
 
     public static void updateMapB(String word) {
-        if (counters.containsKey(word)) {
-            //counters.put(key, )
+        if (counters.get(word) != null) {
+            counters.put(word, counters.get(word) + 1);
         }
     }
 
     public static void updateMapC(String word) {
-        if (counters.containsKey(word)) {
-            //counters.put(key, )
-        }
+        int n = counters.getOrDefault(word, 0);
+        counters.put(word, ++n);
     }
 
     public static void updateMapD(String word) {
-        if (counters.containsKey(word)) {
-            //counters.put(key, )
-        }
+        Integer v;
+        if ((v = counters.putIfAbsent(word, 1)) != null) {
+            counters.put(word, v + 1);
+        };
     }
 }

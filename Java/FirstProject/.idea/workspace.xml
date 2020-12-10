@@ -22,14 +22,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="147829bf-43cf-4675-bd5e-c8a6fdda5691" name="Default Changelist" comment="Part 7. (ex-s from 1 to 5)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task07/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task07/MyFileReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task08/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task09/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/part7/SomeFile.txt" afterDir="false" />
+    <list default="true" id="147829bf-43cf-4675-bd5e-c8a6fdda5691" name="Default Changelist" comment="Part 7. (ex-s from 5 to 8)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task10/DijkstraAlgorithms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task10/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task10/Neighbor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task11/SentenceShuffle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task12/AnotherSentenceShuffle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task06/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task06/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task09/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task09/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task18/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task18/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,20 +84,7 @@
       <recent name="ru.mephi.java.part6.Extras.GenericArraysCreation.TArray" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part7.task07.Main" />
-      <module name="FirstProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.mephi.java.part7.task07.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SentenceShuffle">
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part7.task08.Main" />
       <module name="FirstProject" />
@@ -123,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part7.task06.Main" />
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part7.task18.Main" />
       <module name="FirstProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.mephi.java.part7.task06.*" />
+          <option name="PATTERN" value="ru.mephi.java.part7.task18.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwapMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part7.task05.SwapMethod" />
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part7.task10.Main" />
       <module name="FirstProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.mephi.java.part7.task05.*" />
+          <option name="PATTERN" value="ru.mephi.java.part7.task10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,26 +137,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration name="SentenceShuffle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part7.task11.SentenceShuffle" />
+      <module name="FirstProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.mephi.java.part7.task11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SentenceShuffle" />
+        <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.SwapMethod" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +236,8 @@
       <workItem from="1607148524601" duration="3338000" />
       <workItem from="1607418128385" duration="8155000" />
       <workItem from="1607426840379" duration="10957000" />
-      <workItem from="1607505760603" duration="13380000" />
+      <workItem from="1607505760603" duration="14011000" />
+      <workItem from="1607600840573" duration="13187000" />
     </task>
     <task id="LOCAL-00001" summary="First 3 tasks from part 5">
       <created>1599380987318</created>
@@ -463,7 +463,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607452852075</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Part 7. (ex-s from 5 to 8)">
+      <created>1607523905391</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1607523905391</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -485,7 +492,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added tasks 8-9" />
     <MESSAGE value="Added task 10. Fix double's delimiter" />
     <MESSAGE value="Added extras" />
     <MESSAGE value="Improvements + start extra task" />
@@ -510,7 +516,8 @@
     <MESSAGE value="Extra task fixed. 1 example left" />
     <MESSAGE value="Generics DONE" />
     <MESSAGE value="Part 7. (ex-s from 1 to 5)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Part 7. (ex-s from 1 to 5)" />
+    <MESSAGE value="Part 7. (ex-s from 5 to 8)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Part 7. (ex-s from 5 to 8)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="393" y="164" key="#Notifications" timestamp="1605868378045">
@@ -525,10 +532,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="408" y="245" key="#Updates/0.0.1280.680@0.0.1280.680" timestamp="1607015430609" />
-    <state x="661" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1606933902729">
+    <state x="661" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1607621343024">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="661" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1606933902729" />
+    <state x="661" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1607621343024" />
     <state x="368" y="116" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1605874845747">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -549,26 +556,30 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1599389395510" />
+    <state x="321" y="0" key="#com.intellij.unscramble.UnscrambleDialog" timestamp="1607629167961">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="321" y="0" key="#com.intellij.unscramble.UnscrambleDialog/0.0.1280.680@0.0.1280.680" timestamp="1607629167961" />
     <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1607015481617">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1607015481617" />
-    <state width="721" height="137" key="GridCell.Tab.0.bottom" timestamp="1607523727537">
+    <state width="716" height="137" key="GridCell.Tab.0.bottom" timestamp="1607629238623">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="721" height="137" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1607523727537" />
-    <state width="721" height="137" key="GridCell.Tab.0.center" timestamp="1607523727537">
+    <state width="716" height="137" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1607629238623" />
+    <state width="716" height="137" key="GridCell.Tab.0.center" timestamp="1607629238623">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="721" height="137" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1607523727537" />
-    <state width="721" height="137" key="GridCell.Tab.0.left" timestamp="1607523727537">
+    <state width="716" height="137" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1607629238623" />
+    <state width="716" height="137" key="GridCell.Tab.0.left" timestamp="1607629238623">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="721" height="137" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1607523727537" />
-    <state width="721" height="137" key="GridCell.Tab.0.right" timestamp="1607523727537">
+    <state width="716" height="137" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1607629238623" />
+    <state width="716" height="137" key="GridCell.Tab.0.right" timestamp="1607629238623">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="721" height="137" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1607523727537" />
+    <state width="716" height="137" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1607629238623" />
     <state x="221" y="83" key="IDE.errors.dialog" timestamp="1606490171098">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -585,10 +596,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1603528197628" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1607452855088">
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1607523907527">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1607452855088" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1607523907527" />
     <state x="371" y="101" key="extract.method.dialog" timestamp="1607513069968">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -597,10 +608,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="347" y="73" width="587" height="534" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1599382425514" />
-    <state width="728" height="500" key="javadoc.popup.new" timestamp="1607523632112">
+    <state width="728" height="500" key="javadoc.popup.new" timestamp="1607629202510">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="728" height="500" key="javadoc.popup.new/0.0.1280.680@0.0.1280.680" timestamp="1607523632112" />
+    <state width="728" height="500" key="javadoc.popup.new/0.0.1280.680@0.0.1280.680" timestamp="1607629202510" />
     <state x="232" y="1" key="new project wizard" timestamp="1605340929985">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -609,10 +620,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="436" y="88" key="refactoring.ChangeSignatureDialog/0.0.1280.680@0.0.1280.680" timestamp="1599382314023" />
-    <state x="297" y="151" key="run.anything.popup" timestamp="1607507980023">
+    <state x="297" y="151" key="run.anything.popup" timestamp="1607628574108">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1607507980023" />
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1607628574108" />
     <state x="415" y="147" width="672" height="444" key="search.everywhere.popup" timestamp="1605946747242">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -675,6 +686,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task07/MyFileReader.java</url>
           <line>30</line>
           <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task09/Main.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="77" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/ru/mephi/java/part5/task05/Main.java</url>
