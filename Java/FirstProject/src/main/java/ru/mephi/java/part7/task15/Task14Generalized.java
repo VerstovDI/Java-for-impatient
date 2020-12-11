@@ -1,7 +1,6 @@
 package ru.mephi.java.part7.task15;
 
 import java.util.AbstractList;
-import java.util.Collections;
 import java.util.List;
 import java.util.function.IntFunction;
 

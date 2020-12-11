@@ -1,12 +1,10 @@
 package ru.mephi.java.part7.task10;
 
-public class Neighbor {
-    private String cityName = "unknown";
-    private int distance = -1;
+public class Neighbour {
+    private String cityName;
+    private int distance;
 
-    public Neighbor() { }
-
-    public Neighbor(String cityName, int distance) {
+    public Neighbour(String cityName, int distance) {
         this.cityName = cityName;
         this.distance = distance;
     }
@@ -29,7 +27,7 @@ public class Neighbor {
 
     @Override
     public String toString() {
-        return "Neighbor{" +
+        return "Neighbour{" +
                 "cityName='" + cityName + '\'' +
                 ", distance=" + distance +
                 '}';
