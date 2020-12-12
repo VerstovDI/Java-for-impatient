@@ -11,7 +11,7 @@ public class SwapMethod {
         integerList.add(3);
         integerList.add(4);
         System.out.println(integerList);
-        swap(integerList, 1, 3);
+        swap(integerList, 3, 1);
         System.out.println(integerList);
     }
 
@@ -26,6 +26,9 @@ public class SwapMethod {
     private static <T> void sequentialAccessSwap(List<T> list, int i, int j) {
         ListIterator<T> listIterator = list.listIterator(i);
         T left = listIterator.next();
+        // TODO: сравнить длину от i до j и от конца до j (?)
+        // TODO: по практике написать, чтобы он выслал мне + по задача ещё поспрашивает
+        // посмотреть в среднем
         for (int k = i + 1; k < j; k++) {
             listIterator.next();
         }
@@ -37,7 +40,7 @@ public class SwapMethod {
         listIterator.set(right);
     }
 
-    public static <T> void randomAccessSwap(List<T> lst, int i ,int j) {
+    private static <T> void randomAccessSwap(List<T> lst, int i ,int j) {
         /*T el = lst.get(i);
         lst.set(i, lst.get(j));
         lst.set(j, el);*/
