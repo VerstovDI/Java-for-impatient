@@ -22,11 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="147829bf-43cf-4675-bd5e-c8a6fdda5691" name="Default Changelist" comment="Part 7. Ex. 5 checked. + TODO's">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/extra/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/extra/MyStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/extra/Stack.java" afterDir="false" />
+    <list default="true" id="147829bf-43cf-4675-bd5e-c8a6fdda5691" name="Default Changelist" comment="Part 7. Start doing extra task">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/extra/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/extra/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/extra/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/extra/MyStack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -250,7 +249,7 @@
       <workItem from="1607679243540" duration="22492000" />
       <workItem from="1607753529687" duration="6482000" />
       <workItem from="1607773839987" duration="257000" />
-      <workItem from="1607793233272" duration="4915000" />
+      <workItem from="1607793233272" duration="6132000" />
     </task>
     <task id="LOCAL-00001" summary="First 3 tasks from part 5">
       <created>1599380987318</created>
@@ -518,7 +517,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607793272570</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Part 7. Start doing extra task">
+      <created>1607798216972</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1607798216972</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -540,7 +546,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fixed Transaction Extra Task. Done" />
     <MESSAGE value="Task 3 added" />
     <MESSAGE value="Task 3 minor fixes + Task 4" />
     <MESSAGE value="Task 6 + start Theory examples + minor fixes + JDK 15" />
@@ -565,7 +570,8 @@
     <MESSAGE value="Part 7. (ex-s 15-17)" />
     <MESSAGE value="Part 7. (ex. 12). Chapter 7 done" />
     <MESSAGE value="Part 7. Ex. 5 checked. + TODO's" />
-    <option name="LAST_COMMIT_MESSAGE" value="Part 7. Ex. 5 checked. + TODO's" />
+    <MESSAGE value="Part 7. Start doing extra task" />
+    <option name="LAST_COMMIT_MESSAGE" value="Part 7. Start doing extra task" />
   </component>
   <component name="WindowStateProjectService">
     <state x="393" y="164" key="#Notifications" timestamp="1605868378045">
@@ -580,10 +586,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="408" y="245" key="#Updates/0.0.1280.680@0.0.1280.680" timestamp="1607015430609" />
-    <state x="661" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1607798150260">
+    <state x="661" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1607799398880">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="661" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1607798150260" />
+    <state x="661" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1607799398880" />
     <state x="368" y="116" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1605874845747">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -616,22 +622,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1607774098447" />
-    <state width="703" height="190" key="GridCell.Tab.0.bottom" timestamp="1607798041607">
+    <state width="703" height="190" key="GridCell.Tab.0.bottom" timestamp="1607799339841">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="703" height="190" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1607798041607" />
-    <state width="703" height="190" key="GridCell.Tab.0.center" timestamp="1607798041607">
+    <state width="703" height="190" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1607799339841" />
+    <state width="703" height="190" key="GridCell.Tab.0.center" timestamp="1607799339841">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="703" height="190" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1607798041607" />
-    <state width="703" height="190" key="GridCell.Tab.0.left" timestamp="1607798041606">
+    <state width="703" height="190" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1607799339841" />
+    <state width="703" height="190" key="GridCell.Tab.0.left" timestamp="1607799339841">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="703" height="190" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1607798041606" />
-    <state width="703" height="190" key="GridCell.Tab.0.right" timestamp="1607798041607">
+    <state width="703" height="190" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1607799339841" />
+    <state width="703" height="190" key="GridCell.Tab.0.right" timestamp="1607799339841">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="703" height="190" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1607798041607" />
+    <state width="703" height="190" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1607799339841" />
     <state x="221" y="83" key="IDE.errors.dialog" timestamp="1606490171098">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -648,10 +654,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1603528197628" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1607793276888">
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1607798227771">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1607793276888" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1607798227771" />
     <state x="371" y="101" key="extract.method.dialog" timestamp="1607706876746">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

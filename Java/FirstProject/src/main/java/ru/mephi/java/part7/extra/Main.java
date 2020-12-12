@@ -19,7 +19,12 @@ public class Main {
         arrayList.add(5);
         arrayList.add(6);*/
         Object[] ints = myStack.toArray();
-        System.out.println(Arrays.toString(ints));
+        System.out.println("Метод toArray(): " + Arrays.toString(ints));
+        System.out.println("Метод peek() (10): " + myStack.peek());
+        System.out.println("Метод contains(5) (true): " + myStack.contains(5));
+        System.out.println("Метод contains(11) (false): " + myStack.contains(11));
+        myStack.clear();
+        //System.out.println("Метод clear: " +  myStack);
         //System.out.println(myStack.remove());
     }
 

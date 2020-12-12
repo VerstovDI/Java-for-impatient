@@ -82,8 +82,15 @@ public class MyStack<T> implements Stack<T> {
     @NotNull
     @Override
     @SuppressWarnings("unchecked")
-    public <T1> T1[] toArray(@NotNull T1[] a) {
-        return (T1[]) Array.newInstance(elements.getClass().getComponentType(), elements.length);
+    public <T> T[] toArray(@NotNull T[] a) {
+        if (a.length < size) {
+            return (T[]) Arrays.copyOf(elements, size, a.getClass());
+        }
+        System.arraycopy(elements, 0, a, 0, size);
+        if (a.length > size) {
+            a[size] = null;
+        } // TODO: доделать
+        return a;
     }
 
     @Override
@@ -103,6 +110,7 @@ public class MyStack<T> implements Stack<T> {
 
     @Override
     public boolean containsAll(@NotNull Collection<?> c) {
+
         return false;
     }
 
@@ -123,9 +131,10 @@ public class MyStack<T> implements Stack<T> {
 
     @Override
     public void clear() {
-        final Object[] es = elements;
-        for (int to = size, i = size = 0; i < to; i++)
-            es[i] = null;
+        for (int i = 0; i < size-1; i++) {
+            elements[i] = null;
+        }
+        size = 0;
     }
     
     private class MyStackIterator<T> implements Iterator<T> {
@@ -149,5 +158,10 @@ public class MyStack<T> implements Stack<T> {
         public void forEachRemaining(Consumer<? super T> action) {
 
         }
+    }
+
+    @Override
+    public String toString() {
+        return super.toString(); // TODO:
     }
 }
