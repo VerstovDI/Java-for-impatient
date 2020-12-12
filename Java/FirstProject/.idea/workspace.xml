@@ -22,10 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="147829bf-43cf-4675-bd5e-c8a6fdda5691" name="Default Changelist" comment="Part 7. (ex. 12). Chapter 7 done">
+    <list default="true" id="147829bf-43cf-4675-bd5e-c8a6fdda5691" name="Default Changelist" comment="Part 7. Ex. 5 checked. + TODO's">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/extra/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/extra/MyStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/extra/Stack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task01/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task01/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task05/SwapMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task05/SwapMethod.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +38,8 @@
       <list>
         <option value="FxmlFile" />
         <option value="package-info" />
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -79,7 +80,7 @@
       <recent name="ru.mephi.java.part6.Extras.GenericArraysCreation.TArray" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SwapMethod">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="CheckView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part7.task17.CheckView" />
       <module name="FirstProject" />
@@ -106,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part7.task13.Main" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part7.extra.Main" />
       <module name="FirstProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.mephi.java.part7.task13.*" />
+          <option name="PATTERN" value="ru.mephi.java.part7.extra.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,13 +159,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.SwapMethod" />
         <item itemvalue="Application.CheckView" />
         <item itemvalue="Application.Task15Caching" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -238,6 +250,7 @@
       <workItem from="1607679243540" duration="22492000" />
       <workItem from="1607753529687" duration="6482000" />
       <workItem from="1607773839987" duration="257000" />
+      <workItem from="1607793233272" duration="4915000" />
     </task>
     <task id="LOCAL-00001" summary="First 3 tasks from part 5">
       <created>1599380987318</created>
@@ -498,7 +511,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607709446401</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Part 7. Ex. 5 checked. + TODO's">
+      <created>1607793272570</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1607793272570</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -520,7 +540,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fixed Transaction Extra Task" />
     <MESSAGE value="Fixed Transaction Extra Task. Done" />
     <MESSAGE value="Task 3 added" />
     <MESSAGE value="Task 3 minor fixes + Task 4" />
@@ -545,7 +564,8 @@
     <MESSAGE value="Part 7. (ex-s 12,13,14)" />
     <MESSAGE value="Part 7. (ex-s 15-17)" />
     <MESSAGE value="Part 7. (ex. 12). Chapter 7 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Part 7. (ex. 12). Chapter 7 done" />
+    <MESSAGE value="Part 7. Ex. 5 checked. + TODO's" />
+    <option name="LAST_COMMIT_MESSAGE" value="Part 7. Ex. 5 checked. + TODO's" />
   </component>
   <component name="WindowStateProjectService">
     <state x="393" y="164" key="#Notifications" timestamp="1605868378045">
@@ -560,10 +580,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="408" y="245" key="#Updates/0.0.1280.680@0.0.1280.680" timestamp="1607015430609" />
-    <state x="661" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1607698896601">
+    <state x="661" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1607798150260">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="661" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1607698896601" />
+    <state x="661" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1607798150260" />
     <state x="368" y="116" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1605874845747">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -596,22 +616,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1607774098447" />
-    <state width="711" height="190" key="GridCell.Tab.0.bottom" timestamp="1607764426302">
+    <state width="703" height="190" key="GridCell.Tab.0.bottom" timestamp="1607798041607">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="711" height="190" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1607764426302" />
-    <state width="711" height="190" key="GridCell.Tab.0.center" timestamp="1607764426301">
+    <state width="703" height="190" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1607798041607" />
+    <state width="703" height="190" key="GridCell.Tab.0.center" timestamp="1607798041607">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="711" height="190" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1607764426301" />
-    <state width="711" height="190" key="GridCell.Tab.0.left" timestamp="1607764426301">
+    <state width="703" height="190" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1607798041607" />
+    <state width="703" height="190" key="GridCell.Tab.0.left" timestamp="1607798041606">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="711" height="190" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1607764426301" />
-    <state width="711" height="190" key="GridCell.Tab.0.right" timestamp="1607764426302">
+    <state width="703" height="190" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1607798041606" />
+    <state width="703" height="190" key="GridCell.Tab.0.right" timestamp="1607798041607">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="711" height="190" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1607764426302" />
+    <state width="703" height="190" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1607798041607" />
     <state x="221" y="83" key="IDE.errors.dialog" timestamp="1606490171098">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -628,10 +648,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1603528197628" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1607709449268">
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1607793276888">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1607709449268" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1607793276888" />
     <state x="371" y="101" key="extract.method.dialog" timestamp="1607706876746">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -640,10 +660,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="347" y="73" width="587" height="534" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1599382425514" />
-    <state width="728" height="500" key="javadoc.popup.new" timestamp="1607763629593">
+    <state width="728" height="500" key="javadoc.popup.new" timestamp="1607794399739">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="728" height="500" key="javadoc.popup.new/0.0.1280.680@0.0.1280.680" timestamp="1607763629593" />
+    <state width="728" height="500" key="javadoc.popup.new/0.0.1280.680@0.0.1280.680" timestamp="1607794399739" />
     <state x="232" y="1" key="new project wizard" timestamp="1605340929985">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -656,10 +676,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1607628574108" />
-    <state x="415" y="147" width="672" height="444" key="search.everywhere.popup" timestamp="1607708033847">
+    <state x="415" y="147" width="672" height="444" key="search.everywhere.popup" timestamp="1607796955362">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="415" y="147" width="672" height="444" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1607708033847" />
+    <state x="415" y="147" width="672" height="444" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1607796955362" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -734,6 +754,11 @@
           <line>23</line>
           <option name="timeStamp" value="85" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/extra/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/ru/mephi/java/part5/task05/Main.java</url>
           <line>11</line>
@@ -752,10 +777,5 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="unvisitedNodes" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
