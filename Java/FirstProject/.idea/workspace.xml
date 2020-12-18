@@ -22,19 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="147829bf-43cf-4675-bd5e-c8a6fdda5691" name="Default Changelist" comment="Part 7. Continue doing extra task (clear, contains, peek)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task07/MyFileReader2.java" afterDir="false" />
+    <list default="true" id="147829bf-43cf-4675-bd5e-c8a6fdda5691" name="Default Changelist" comment="Part 7. extra + another implementation of task 7 (for big files)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task14/ImmutableListViewAPI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part4/extras/classLoadersEx/CustomClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part4/extras/classLoadersEx/CustomClassLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part4/extras/classLoadersEx/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part4/extras/classLoadersEx/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/extra/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/extra/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/extra/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/extra/MyStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/extra/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/extra/Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task07/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task07/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task07/MyFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task07/MyFileReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task14/ImmutableListView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task14/ImmutableListView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/extras/classLoadersEx/CustomClassLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/extras/classLoadersEx/CustomClassLoader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/extras/classLoadersEx/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/extras/classLoadersEx/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task14/ImmutableListView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task14/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task14/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,13 +73,13 @@
       <recent name="ru.mephi.java.part6.Extras.GenericArraysCreation.TArray" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="CheckView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part7.task17.CheckView" />
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part7.task14.Main" />
       <module name="FirstProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.mephi.java.part7.task17.*" />
+          <option name="PATTERN" value="ru.mephi.java.part7.task14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.SwapMethod" />
-        <item itemvalue="Application.CheckView" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +234,7 @@
       <workItem from="1607847215349" duration="2157000" />
       <workItem from="1607861070531" duration="6999000" />
       <workItem from="1608021839063" duration="594000" />
-      <workItem from="1608297233188" duration="6756000" />
+      <workItem from="1608297233188" duration="14292000" />
     </task>
     <task id="LOCAL-00001" summary="First 3 tasks from part 5">
       <created>1599380987318</created>
@@ -524,7 +516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607799458397</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Part 7. extra + another implementation of task 7 (for big files)">
+      <created>1608307437022</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1608307437022</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -546,7 +545,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Task 3 minor fixes + Task 4" />
     <MESSAGE value="Task 6 + start Theory examples + minor fixes + JDK 15" />
     <MESSAGE value="Task 12 DONE" />
     <MESSAGE value="Task 16, Task 18 DONE" />
@@ -571,7 +569,8 @@
     <MESSAGE value="Part 7. Ex. 5 checked. + TODO's" />
     <MESSAGE value="Part 7. Start doing extra task" />
     <MESSAGE value="Part 7. Continue doing extra task (clear, contains, peek)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Part 7. Continue doing extra task (clear, contains, peek)" />
+    <MESSAGE value="Part 7. extra + another implementation of task 7 (for big files)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Part 7. extra + another implementation of task 7 (for big files)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -650,6 +649,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task07/MyFileReader2.java</url>
           <line>17</line>
           <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task14/Main.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="103" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/ru/mephi/java/part5/task05/Main.java</url>
