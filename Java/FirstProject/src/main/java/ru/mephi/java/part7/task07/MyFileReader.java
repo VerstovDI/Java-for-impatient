@@ -14,8 +14,6 @@ public class MyFileReader {
     private void calculateWordFrequency(Path filePath) {
         checkPath(filePath);
         try (Stream<String> stream = Files.lines(filePath)) {
-            /*stream.collect(Collectors.groupingBy(k -> k, () -> wordFrequencyMap,
-                    Collectors.counting()));*/
             stream.map(str -> str.split("\\s"))
                     .flatMap(Arrays::stream)
                     .collect(Collectors.toMap(String::toLowerCase, w -> 1, Integer::sum, () -> wordFrequencyMap));

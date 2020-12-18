@@ -22,10 +22,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="147829bf-43cf-4675-bd5e-c8a6fdda5691" name="Default Changelist" comment="Part 7. Start doing extra task">
+    <list default="true" id="147829bf-43cf-4675-bd5e-c8a6fdda5691" name="Default Changelist" comment="Part 7. Continue doing extra task (clear, contains, peek)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task07/MyFileReader2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part4/extras/classLoadersEx/CustomClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part4/extras/classLoadersEx/CustomClassLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part4/extras/classLoadersEx/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part4/extras/classLoadersEx/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/extra/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/extra/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/extra/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/extra/MyStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/extra/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/extra/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task07/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task07/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task07/MyFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task07/MyFileReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task14/ImmutableListView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task14/ImmutableListView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/extras/classLoadersEx/CustomClassLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/extras/classLoadersEx/CustomClassLoader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/extras/classLoadersEx/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/mephi/java/part4/extras/classLoadersEx/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,13 +54,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="E:\IntelliJ IDEA 2020.1.3\plugins\maven\lib\maven3" />
-      </MavenGeneralSettings>
-    </option>
   </component>
   <component name="ProjectId" id="1XW542kY1sZQhnf7DxgbiH9UEZX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -79,26 +81,13 @@
       <recent name="ru.mephi.java.part6.Extras.GenericArraysCreation.TArray" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="CheckView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part7.task17.CheckView" />
       <module name="FirstProject" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.mephi.java.part7.task17.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part7.task14.Main" />
-      <module name="FirstProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.mephi.java.part7.task14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +108,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part7.task10.Main" />
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part4.extras.classLoadersEx.Main" />
       <module name="FirstProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.mephi.java.part7.task10.*" />
+          <option name="PATTERN" value="ru.mephi.java.part4.extras.classLoadersEx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part7.task07.Main" />
+      <module name="FirstProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.mephi.java.part7.task07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,19 +147,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task15Caching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.mephi.java.part7.task16.Task15Caching" />
-      <module name="FirstProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.mephi.java.part7.task16.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -171,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.SwapMethod" />
         <item itemvalue="Application.CheckView" />
-        <item itemvalue="Application.Task15Caching" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -249,7 +238,11 @@
       <workItem from="1607679243540" duration="22492000" />
       <workItem from="1607753529687" duration="6482000" />
       <workItem from="1607773839987" duration="257000" />
-      <workItem from="1607793233272" duration="6132000" />
+      <workItem from="1607793233272" duration="6759000" />
+      <workItem from="1607847215349" duration="2157000" />
+      <workItem from="1607861070531" duration="6999000" />
+      <workItem from="1608021839063" duration="594000" />
+      <workItem from="1608297233188" duration="6756000" />
     </task>
     <task id="LOCAL-00001" summary="First 3 tasks from part 5">
       <created>1599380987318</created>
@@ -524,7 +517,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607798216972</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Part 7. Continue doing extra task (clear, contains, peek)">
+      <created>1607799458397</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1607799458397</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -546,7 +546,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Task 3 added" />
     <MESSAGE value="Task 3 minor fixes + Task 4" />
     <MESSAGE value="Task 6 + start Theory examples + minor fixes + JDK 15" />
     <MESSAGE value="Task 12 DONE" />
@@ -571,121 +570,8 @@
     <MESSAGE value="Part 7. (ex. 12). Chapter 7 done" />
     <MESSAGE value="Part 7. Ex. 5 checked. + TODO's" />
     <MESSAGE value="Part 7. Start doing extra task" />
-    <option name="LAST_COMMIT_MESSAGE" value="Part 7. Start doing extra task" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="393" y="164" key="#Notifications" timestamp="1605868378045">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="393" y="164" key="#Notifications/0.0.1280.680@0.0.1280.680" timestamp="1605868378045" />
-    <state x="121" y="0" key="#Project_Structure" timestamp="1599243508700">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="121" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1599243508700" />
-    <state x="408" y="245" key="#Updates" timestamp="1607015430609">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="408" y="245" key="#Updates/0.0.1280.680@0.0.1280.680" timestamp="1607015430609" />
-    <state x="661" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1607799398880">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="661" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1607799398880" />
-    <state x="368" y="116" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1605874845747">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="368" y="116" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1605874845747" />
-    <state x="321" y="76" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1607426267269">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="321" y="76" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.680@0.0.1280.680" timestamp="1607426267269" />
-    <state x="280" y="265" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1607444880307">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="280" y="265" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.680@0.0.1280.680" timestamp="1607444880307" />
-    <state x="405" y="209" width="592" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1606670689121">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="405" y="209" width="592" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1606670689121" />
-    <state x="182" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1607701750892">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="182" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1607701750892" />
-    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599389395510">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1599389395510" />
-    <state x="321" y="0" key="#com.intellij.unscramble.UnscrambleDialog" timestamp="1607629167961">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="321" y="0" key="#com.intellij.unscramble.UnscrambleDialog/0.0.1280.680@0.0.1280.680" timestamp="1607629167961" />
-    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1607774098447">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1607774098447" />
-    <state width="703" height="190" key="GridCell.Tab.0.bottom" timestamp="1607799339841">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="703" height="190" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1607799339841" />
-    <state width="703" height="190" key="GridCell.Tab.0.center" timestamp="1607799339841">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="703" height="190" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1607799339841" />
-    <state width="703" height="190" key="GridCell.Tab.0.left" timestamp="1607799339841">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="703" height="190" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1607799339841" />
-    <state width="703" height="190" key="GridCell.Tab.0.right" timestamp="1607799339841">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="703" height="190" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1607799339841" />
-    <state x="221" y="83" key="IDE.errors.dialog" timestamp="1606490171098">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="221" y="83" key="IDE.errors.dialog/0.0.1280.680@0.0.1280.680" timestamp="1606490171098" />
-    <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1599246252760">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="171" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.680@0.0.1280.680" timestamp="1599246252760" />
-    <state x="456" y="274" key="ReplaceDuplicatesPrompt" timestamp="1607421826740">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="456" y="274" key="ReplaceDuplicatesPrompt/0.0.1280.680@0.0.1280.680" timestamp="1607421826740" />
-    <state x="121" y="0" key="SettingsEditor" timestamp="1603528197628">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1603528197628" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1607798227771">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1607798227771" />
-    <state x="371" y="101" key="extract.method.dialog" timestamp="1607706876746">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="371" y="101" key="extract.method.dialog/0.0.1280.680@0.0.1280.680" timestamp="1607706876746" />
-    <state x="347" y="73" width="587" height="534" key="find.popup" timestamp="1599382425514">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="347" y="73" width="587" height="534" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1599382425514" />
-    <state width="728" height="500" key="javadoc.popup.new" timestamp="1607794399739">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="728" height="500" key="javadoc.popup.new/0.0.1280.680@0.0.1280.680" timestamp="1607794399739" />
-    <state x="232" y="1" key="new project wizard" timestamp="1605340929985">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="232" y="1" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1605340929985" />
-    <state x="436" y="88" key="refactoring.ChangeSignatureDialog" timestamp="1599382314023">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="436" y="88" key="refactoring.ChangeSignatureDialog/0.0.1280.680@0.0.1280.680" timestamp="1599382314023" />
-    <state x="297" y="151" key="run.anything.popup" timestamp="1607628574108">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1607628574108" />
-    <state x="415" y="147" width="672" height="444" key="search.everywhere.popup" timestamp="1607796955362">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="415" y="147" width="672" height="444" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1607796955362" />
+    <MESSAGE value="Part 7. Continue doing extra task (clear, contains, peek)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Part 7. Continue doing extra task (clear, contains, peek)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -736,13 +622,8 @@
           <option name="timeStamp" value="66" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task07/Main.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="71" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task07/MyFileReader.java</url>
-          <line>30</line>
+          <line>28</line>
           <option name="timeStamp" value="74" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -762,8 +643,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/extra/Main.java</url>
-          <line>13</line>
+          <line>10</line>
           <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task07/MyFileReader2.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="97" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/ru/mephi/java/part5/task05/Main.java</url>

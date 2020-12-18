@@ -4,6 +4,6 @@ import java.util.Collection;
 
 public interface Stack<T> extends Collection<T> {
     T push(T el);
-    T pop(T el);
+    T pop();
     T peek();
 }

@@ -15,5 +15,10 @@ public class Main {
                         .toURI());
         MyFileReader myFileReader = new MyFileReader();
         myFileReader.printWordsFrequency(filePath);
+        myFileReader.printWordOccurences(filePath);
+
+        MyFileReader2 myFileReader2 = new MyFileReader2();
+        myFileReader2.printWordsFrequency(filePath);
+        myFileReader2.printWordOccurences(filePath);
     }
 }

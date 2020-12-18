@@ -23,7 +23,7 @@ public class CustomClassLoader extends ClassLoader {
     @Override
     public Class<?> loadClass(String name) throws ClassNotFoundException {
         System.out.println("loading class '" + name + "'");
-        if (name.startsWith("ru.mephi.java.part4.")) {
+        if (name.startsWith("ru.mephi.java.part3.")) {
             return getClass(name);
         }
         return super.loadClass(name);
