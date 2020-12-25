@@ -10,7 +10,18 @@ public class Main {
         System.out.println(ints);
         //ImmutableListViewAPI listView = new ImmutableListViewAPI();
         List<Integer> ints2 = Collections.unmodifiableList(ints);*/
-        //ArrayList
+        /*ArrayList al = new ArrayList();
+        al.add("0");
+        al.add("1");
+        al.add("2");
+        al.add("3");
+        ListIterator itt = al.listIterator(0);
+        while (itt.hasNext()) {
+            System.out.println(itt.next());
+            System.out.println(itt.previous());
+        }*/
+
+
 
         ImmutableListViewAPI.ImmutableListView listView = ImmutableListViewAPI.getImmutableListView(15);
         System.out.println("Full list:");
@@ -36,8 +47,12 @@ public class Main {
         System.out.println("List iterator test:");
         ListIterator<Integer> listIterator = listView.listIterator(5);
         while (listIterator.hasNext()) {
-            System.out.println("Curr val " + listIterator.next());
+            System.out.println("Next val " + listIterator.next());
+            System.out.println("Prev val " + listIterator.previous());
+            System.out.println("Again next val " + listIterator.next());
+            //System.out.println("Again next val " + listIterator.previous());
             System.out.println("Prev index " + listIterator.previousIndex());
+            System.out.println("Next index " + listIterator.nextIndex());
         }
         System.out.println(listView.add(50));
     }

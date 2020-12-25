@@ -22,10 +22,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="147829bf-43cf-4675-bd5e-c8a6fdda5691" name="Default Changelist" comment="Part 7. Fix task 15">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task16/ImmutableListViewAPI.java" afterDir="false" />
+    <list default="true" id="147829bf-43cf-4675-bd5e-c8a6fdda5691" name="Default Changelist" comment="Part 7. Fix task 16">
+      <change afterPath="$PROJECT_DIR$/src/main/java/GenericsExamples/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task16/Task15Caching.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task16/Task15Caching.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task14/ImmutableListViewAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task14/ImmutableListViewAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task14/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task14/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task15/ImmutableListViewAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task15/ImmutableListViewAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task16/ImmutableListViewAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task16/ImmutableListViewAPI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,7 +239,9 @@
       <workItem from="1607861070531" duration="6999000" />
       <workItem from="1608021839063" duration="594000" />
       <workItem from="1608297233188" duration="15678000" />
-      <workItem from="1608355308211" duration="1640000" />
+      <workItem from="1608355308211" duration="2908000" />
+      <workItem from="1608379358508" duration="5894000" />
+      <workItem from="1608915051662" duration="4729000" />
     </task>
     <task id="LOCAL-00001" summary="First 3 tasks from part 5">
       <created>1599380987318</created>
@@ -539,7 +544,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608356223497</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Part 7. Fix task 16">
+      <created>1608357019177</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1608357019177</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -561,7 +573,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Task 16, Task 18 DONE" />
     <MESSAGE value="Task 20 DONE" />
     <MESSAGE value="Task 22, 24 DONE" />
     <MESSAGE value="Add some theory tasks examples" />
@@ -586,7 +597,8 @@
     <MESSAGE value="Part 7. extra + another implementation of task 7 (for big files)" />
     <MESSAGE value="Part 7. Fix task 14" />
     <MESSAGE value="Part 7. Fix task 15" />
-    <option name="LAST_COMMIT_MESSAGE" value="Part 7. Fix task 15" />
+    <MESSAGE value="Part 7. Fix task 16" />
+    <option name="LAST_COMMIT_MESSAGE" value="Part 7. Fix task 16" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -668,8 +680,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task14/Main.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="103" />
+          <line>49</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task15/Task14Generalized.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="111" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/ru/mephi/java/part5/task05/Main.java</url>

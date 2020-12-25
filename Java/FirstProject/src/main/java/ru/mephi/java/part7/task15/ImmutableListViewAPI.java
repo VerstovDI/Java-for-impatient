@@ -19,7 +19,7 @@ public class ImmutableListViewAPI {
 
     static class ImmutableListView implements List<Integer> {
         private final int upperBound;
-        private final int offset;
+        private final int lowerBound;
         private final IntFunction<Integer> intFunction;
 
         public ImmutableListView(int upperBound, IntFunction<Integer> intFunction) {
@@ -28,32 +28,32 @@ public class ImmutableListViewAPI {
             }
             this.upperBound = upperBound;
             this.intFunction = intFunction;
-            offset = 0;
+            lowerBound = 0;
         }
 
-        public ImmutableListView(int size, int lastElement, IntFunction<Integer> intFunction) {
-            if (size < 0 || lastElement < 0) {
+        public ImmutableListView(int lowerBound, int upperBound, IntFunction<Integer> intFunction) {
+            if (lowerBound > upperBound) {
                 throw new IllegalArgumentException("Illegal argument! View size <= 0!");
             }
-            upperBound = lastElement;
+            this.upperBound = upperBound;
             this.intFunction = intFunction;
-            offset = size;
+            this.lowerBound = lowerBound;
         }
 
         @Override
         public int size() {
-            return upperBound - offset + 1;
+            return upperBound - lowerBound + 1;
         }
 
         @Override
         public boolean isEmpty() {
-            return upperBound - offset + 1 == 0;
+            return upperBound - lowerBound == 0;
         }
 
         @Override
         public boolean contains(Object o) {
             if (o instanceof Integer) {
-                for (int i = offset; i <= upperBound; i++) {
+                for (int i = lowerBound; i <= upperBound; i++) {
                     if (intFunction.apply(i) == (int) o) {
                         return true;
                     }
@@ -72,9 +72,9 @@ public class ImmutableListViewAPI {
         public int indexOf(Object o) {
             if (o instanceof Integer) {
                 int i = (int) o;
-                for (int j = offset; i <= upperBound; i++) {
+                for (int j = lowerBound; i <= upperBound; i++) {
                     if (intFunction.apply(i) == i) {
-                        return i - offset;
+                        return i - lowerBound;
                     }
                 }
             }
@@ -86,9 +86,9 @@ public class ImmutableListViewAPI {
             int index = -1;
             if (o instanceof Integer) {
                 int i = (int) o;
-                for (int j = offset; i <= upperBound; i++) {
+                for (int j = lowerBound; i <= upperBound; i++) {
                     if (intFunction.apply(i) == i) {
-                        index = i - offset;
+                        index = i - lowerBound;
                     }
                 }
             }
@@ -97,60 +97,66 @@ public class ImmutableListViewAPI {
 
         @Override
         public void forEach(Consumer<? super Integer> action) {
-            for (int i = offset; i <= upperBound; i++)
+            for (int i = lowerBound; i <= upperBound; i++)
                 action.accept(intFunction.apply(i));
         }
 
         @NotNull
         @Override
         public ListIterator<Integer> listIterator() {
-            return listIterator(offset - 1);
+            return listIterator(0);
         }
 
         @NotNull
         @Override
         public ListIterator<Integer> listIterator(int index) {
-            if (index < offset - 1 || index > upperBound) {
+            if (index < 0 || index > upperBound - lowerBound) {
                 throw new IndexOutOfBoundsException("Illegal value of index: "
                         + index + "is out of available range");
             }
             return new ListIterator<>() {
-                private int currentValue = index;
+                private int currentIndex = index;
 
                 @Override
                 public boolean hasNext() {
-                    return currentValue < upperBound;
+                    return currentIndex <= upperBound - lowerBound;
                 }
 
                 @Override
                 public Integer next() {
                     if (hasNext()) {
-                        return intFunction.apply(++this.currentValue);
+                        return intFunction.apply(lowerBound + currentIndex++);
                     }
                     throw new IndexOutOfBoundsException("No next value");
                 }
 
                 @Override
                 public boolean hasPrevious() {
-                    return currentValue > index;
+                    return currentIndex > 0;
                 }
 
                 @Override
                 public Integer previous() {
                     if (hasPrevious()) {
-                        return intFunction.apply(--currentValue);
+                        return intFunction.apply(lowerBound + --currentIndex);
                     }
-                    throw new IndexOutOfBoundsException("No next value");
+                    return -1;
                 }
 
                 @Override
                 public int nextIndex() {
-                    return currentValue + 1;
+                    if (currentIndex >= upperBound - lowerBound) {
+                        return -1;
+                    }
+                    return currentIndex + 1;
                 }
 
                 @Override
                 public int previousIndex() {
-                    return currentValue - 1;
+                    if (currentIndex == 0) {
+                        return -1;
+                    }
+                    return currentIndex - 1;
                 }
 
                 @Override
@@ -173,19 +179,19 @@ public class ImmutableListViewAPI {
         @NotNull
         @Override
         public List<Integer> subList(int fromIndex, int toIndex) {
-            if (toIndex < fromIndex || toIndex > upperBound - offset + 1
+            if (toIndex < fromIndex || toIndex > upperBound - lowerBound + 1
                     || fromIndex < 0) {
-                throw new IndexOutOfBoundsException("Illegal index(-es). Out of bounds" + (upperBound - offset + 1));
+                throw new IndexOutOfBoundsException("Illegal index(-es). Out of bounds" + (upperBound - lowerBound + 1));
             }
-            return new ImmutableListView(offset + fromIndex, offset + toIndex - 1, intFunction);
+            return new ImmutableListView(lowerBound + fromIndex, lowerBound + toIndex - 1, intFunction);
         }
 
         @NotNull
         @Override
         public Object[] toArray() {
-            Integer[] array = new Integer[upperBound - offset + 1];
+            Integer[] array = new Integer[upperBound - lowerBound + 1];
             int j = 0;
-            for (int i = offset; i <= upperBound; i++) {
+            for (int i = lowerBound; i <= upperBound; i++) {
                 array[j++] = intFunction.apply(i);
             }
             return array;
@@ -197,17 +203,17 @@ public class ImmutableListViewAPI {
         public <T> T[] toArray(@NotNull T[] a) {
             Object[] array;
             int j = 0;
-            if (a.length > upperBound - offset + 1) {
-                array = (Object[]) Array.newInstance(a.getClass().getComponentType(), upperBound - offset + 1);
-                for (int i = offset; i <= upperBound; i++) {
+            if (a.length < upperBound - lowerBound + 1) {
+                array = (Object[]) Array.newInstance(a.getClass().getComponentType(), upperBound - lowerBound + 1);
+                for (int i = lowerBound; i <= upperBound; i++) {
                     array[j++] = intFunction.apply(i);
                 }
             } else {
-                array = (Object[]) Array.newInstance(a.getClass().getComponentType(), upperBound - offset + 1);
-                for (int i = offset; i < a.length + offset; i++) {
+                array = (Object[]) Array.newInstance(a.getClass().getComponentType(), upperBound - lowerBound + 1);
+                for (int i = lowerBound; i < a.length + lowerBound; i++) {
                     array[j++] = intFunction.apply(i);
                 }
-                for (int i = a.length + offset; i <= upperBound; i++) {
+                for (int i = a.length + lowerBound; i <= upperBound; i++) {
                     array[j++] = null;
                 }
             }
@@ -216,11 +222,11 @@ public class ImmutableListViewAPI {
 
         @Override
         public Integer get(int index) {
-            if (index + offset <= upperBound && index >= 0) {
-                return intFunction.apply(index + offset);
+            if (index + lowerBound <= upperBound && index >= 0) {
+                return intFunction.apply(index + lowerBound);
             }
             throw new IndexOutOfBoundsException("Current index "
-                    + index + " is out of bound " + (upperBound - offset));
+                    + index + " is out of bound " + (upperBound - lowerBound));
         }
 
         @Override
