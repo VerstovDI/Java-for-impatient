@@ -1,5 +1,8 @@
 package ru.mephi.java.part7.task07;
 
+import org.apache.commons.io.FileUtils;
+import org.apache.commons.io.LineIterator;
+
 import java.io.File;
 import java.net.URISyntaxException;
 import java.nio.file.Path;
@@ -20,5 +23,20 @@ public class Main {
         MyFileReader2 myFileReader2 = new MyFileReader2();
         myFileReader2.printWordsFrequency(filePath);
         myFileReader2.printWordOccurences(filePath);
+
+
+
+
+
+
+        /*LineIterator it = FileUtils.lineIterator(filePath.toFile(), "UTF-8");
+        try {
+            while (it.hasNext()) {
+                String line = it.nextLine();
+                // и то же самое...
+            }
+        } finally {
+            it.close();
+        }*/
     }
 }

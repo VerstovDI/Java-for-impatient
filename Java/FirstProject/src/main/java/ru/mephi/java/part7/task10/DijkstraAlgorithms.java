@@ -27,7 +27,6 @@ public class DijkstraAlgorithms {
                 for (Neighbour neighbour : graph.get(currNode.getCityName())) {
                     int newDist = distMap.get(currNode.getCityName()) + neighbour.getDistance();
                     if (newDist < distMap.get(neighbour.getCityName())) {
-                        distMap.remove(neighbour.getCityName());
                         distMap.put(neighbour.getCityName(), newDist);
                         unvisitedNodes.add(new Neighbour(neighbour.getCityName(), newDist));
                     }

@@ -9,7 +9,6 @@ public class AnotherSentenceShuffle {
     public static void main(String[] args) {
         //System.out.println(anotherSentenceShuffle("My friend Sam likes football very much"));
         anotherSentenceShuffle("My friend Sam likes football very much");
-        // TODO: доделать
     }
 
     public static void anotherSentenceShuffle(String sentence) {

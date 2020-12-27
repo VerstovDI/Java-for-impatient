@@ -1,6 +1,7 @@
 package ru.mephi.java.part7.extra;
 
 import java.util.Arrays;
+import java.util.Iterator;
 
 public class Main {
     public static void main(String[] args) {
@@ -21,8 +22,16 @@ public class Main {
         System.out.println("Метод remove(6): " + myStack.remove(6));
         System.out.println("Метод pop(): " + myStack.pop());
         System.out.println(Arrays.toString(myStack.toArray()));
-        myStack.clear();
-        System.out.println(Arrays.toString(myStack.toArray()));
+        //myStack.clear();
+        //System.out.println(Arrays.toString(myStack.toArray()));
+
+        //
+        Iterator<Integer> stackIt = myStack.iterator();
+        System.out.println("iterator" + Arrays.toString(myStack.toArray()));
+        while (stackIt.hasNext()) {
+            System.out.println(stackIt.next());
+        }
+        stackIt.next();
     }
 
     public static void initMyStack(MyStack<Integer> myStack) {

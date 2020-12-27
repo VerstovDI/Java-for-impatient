@@ -8,6 +8,8 @@ import java.util.List;
 public class CheckView {
     public static void main(String[] args) {
         List<Integer> checkInts = Collections.checkedList(new ArrayList<>(), Integer.class);
+        checkInts = new ArrayList<>();
+
         ArrayList arrayList = new ArrayList<>();
         arrayList.add("hello");
         checkInts.addAll(arrayList);

@@ -26,9 +26,6 @@ public class SwapMethod {
     private static <T> void sequentialAccessSwap(List<T> list, int i, int j) {
         ListIterator<T> listIterator = list.listIterator(i);
         T left = listIterator.next();
-        // TODO: сравнить длину от i до j и от конца до j (?)
-        // TODO: по практике написать, чтобы он выслал мне + по задача ещё поспрашивает
-        // посмотреть в среднем
         for (int k = i + 1; k < j; k++) {
             listIterator.next();
         }

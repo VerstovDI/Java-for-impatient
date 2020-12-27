@@ -9,6 +9,5 @@ public class Main {
         Map<String, String> map = Collections.EMPTY_MAP;
         Set<Double> set = Collections.EMPTY_SET;
 
-        // TODO: 12 - мб воспользоваться тем, что коллекции бывают упорядоченные, и неупорядоченные?
     }
 }

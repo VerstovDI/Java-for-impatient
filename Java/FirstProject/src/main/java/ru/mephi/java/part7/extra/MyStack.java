@@ -22,7 +22,7 @@ public class MyStack<T> implements Stack<T> {
 
     @Override
     public T pop() {
-        T removedEl = dataArray.get(dataArray.size()-1);
+        T removedEl = peek();
         dataArray.remove(dataArray.get(dataArray.size()-1));
         return removedEl;
     }
@@ -53,7 +53,22 @@ public class MyStack<T> implements Stack<T> {
     @NotNull
     @Override
     public Iterator<T> iterator() {
-        return dataArray.iterator();
+        return new Iterator<>() {
+            private int currIndex = dataArray.size() - 1;
+            @Override
+            public boolean hasNext() {
+                return currIndex >= 0;
+            }
+
+            @Override
+            public T next() {
+                if (hasNext()) {
+                    return dataArray.get(currIndex--);
+                }
+                throw new IndexOutOfBoundsException("End of stack");
+            }
+        };
+        //return dataArray.iterator(); // Итератор с конца
     }
 
     @NotNull
