@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.EmptyStackException;
 import java.util.Iterator;
+import java.util.function.Consumer;
 
 public class MyStack<T> implements Stack<T> {
     private ArrayList<T> dataArray;
@@ -61,6 +62,19 @@ public class MyStack<T> implements Stack<T> {
             }
 
             @Override
+            public void remove() {
+                dataArray.remove(dataArray.size()-1);
+                currIndex--;
+            }
+
+            @Override
+            public void forEachRemaining(Consumer<? super T> action) {
+                for (int i = dataArray.size()-1; i >= 0; i--) {
+                    action.accept(dataArray.get(i));
+                }
+            }
+
+            @Override
             public T next() {
                 if (hasNext()) {
                     return dataArray.get(currIndex--);
@@ -68,7 +82,6 @@ public class MyStack<T> implements Stack<T> {
                 throw new IndexOutOfBoundsException("End of stack");
             }
         };
-        //return dataArray.iterator(); // Итератор с конца
     }
 
     @NotNull

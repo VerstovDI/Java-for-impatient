@@ -1,7 +1,9 @@
 package ru.mephi.java.part7.extra;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
+import java.util.function.Consumer;
 
 public class Main {
     public static void main(String[] args) {
@@ -25,13 +27,15 @@ public class Main {
         //myStack.clear();
         //System.out.println(Arrays.toString(myStack.toArray()));
 
-        //
         Iterator<Integer> stackIt = myStack.iterator();
         System.out.println("iterator" + Arrays.toString(myStack.toArray()));
-        while (stackIt.hasNext()) {
-            System.out.println(stackIt.next());
-        }
-        stackIt.next();
+        /*while (stackIt.hasNext()) {
+            // System.out.println(stackIt.next());
+            // stackIt.remove();
+        }*/
+        // System.out.println(Arrays.toString(myStack.toArray()));
+        // stackIt.next();
+        stackIt.forEachRemaining(integer -> System.out.println("accept" + integer));
     }
 
     public static void initMyStack(MyStack<Integer> myStack) {

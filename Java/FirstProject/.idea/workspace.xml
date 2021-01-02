@@ -22,17 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="147829bf-43cf-4675-bd5e-c8a6fdda5691" name="Default Changelist" comment="Part 7. Fix tasks 14-15">
+    <list default="true" id="147829bf-43cf-4675-bd5e-c8a6fdda5691" name="Default Changelist" comment="Part 7. last minor fixes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/extra/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/extra/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/extra/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/extra/MyStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task05/SwapMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task05/SwapMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task07/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task07/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task10/DijkstraAlgorithms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task10/DijkstraAlgorithms.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task12/AnotherSentenceShuffle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task12/AnotherSentenceShuffle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task17/CheckView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task17/CheckView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task18/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/task18/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -249,7 +242,9 @@
       <workItem from="1608924431000" duration="709000" />
       <workItem from="1608963237141" duration="1355000" />
       <workItem from="1609008712254" duration="857000" />
-      <workItem from="1609049525562" duration="8531000" />
+      <workItem from="1609049525562" duration="9041000" />
+      <workItem from="1609529180307" duration="562000" />
+      <workItem from="1609567624737" duration="2030000" />
     </task>
     <task id="LOCAL-00001" summary="First 3 tasks from part 5">
       <created>1599380987318</created>
@@ -566,7 +561,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608921466378</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Part 7. last minor fixes">
+      <created>1609064341325</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1609064341325</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -588,7 +590,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Task 22, 24 DONE" />
     <MESSAGE value="Add some theory tasks examples" />
     <MESSAGE value="Minor fixes (delete TODO's, add theory staff)" />
     <MESSAGE value="Add extra tasks" />
@@ -613,7 +614,8 @@
     <MESSAGE value="Part 7. Fix task 15" />
     <MESSAGE value="Part 7. Fix task 16" />
     <MESSAGE value="Part 7. Fix tasks 14-15" />
-    <option name="LAST_COMMIT_MESSAGE" value="Part 7. Fix tasks 14-15" />
+    <MESSAGE value="Part 7. last minor fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Part 7. last minor fixes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -698,11 +700,6 @@
           <line>16</line>
           <option name="timeStamp" value="111" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/extra/Main.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="113" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/ru/mephi/java/part5/task05/Main.java</url>
           <line>11</line>
@@ -718,6 +715,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/mephi/java/part7/extra/MyStack.java</url>
+          <line>55</line>
+          <properties class="ru.mephi.java.part7.extra.MyStack" method="iterator">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="115" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
